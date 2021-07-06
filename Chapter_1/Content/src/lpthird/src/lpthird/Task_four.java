@@ -1,6 +1,7 @@
 package lpthird;
 
-//Составить программу нахождения произведния квадратов первых двухсот чисел.
+//РЎРѕСЃС‚Р°РІРёС‚СЊ РїСЂРѕРіСЂР°РјРјСѓ РЅР°С…РѕР¶РґРµРЅРёСЏ РїСЂРѕРёР·РІРµРґРЅРёСЏ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… РґРІСѓС…СЃРѕС‚ С‡РёСЃРµР».
+
 import global.Input_value_int;
 
 public class Task_four {
@@ -10,7 +11,7 @@ public class Task_four {
 		int q = 0;
 		long SumOfSquaresProduct = 0;
 		long SquaresProduct = 0;
-		System.out.println("Введите начальное число");
+		System.out.println("Р’РІРµРґРёС‚Рµ РЅР°С‡Р°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
 		Input_value_int.Input_value(q);
 		int i = q;
 		while (i <= (q + 200)) {
@@ -22,7 +23,7 @@ public class Task_four {
 			SumOfSquaresProduct = SumOfSquaresProduct + SquaresProduct;
 			i = i + 1;
 		}
-		System.out.println("Сумма квадратов 200 чисел: " + SumOfSquaresProduct);
+		System.out.println("РЎСѓРјРјР° РєРІР°РґСЂР°С‚РѕРІ 200 С‡РёСЃРµР»: " + SumOfSquaresProduct);
 
 	}
 
