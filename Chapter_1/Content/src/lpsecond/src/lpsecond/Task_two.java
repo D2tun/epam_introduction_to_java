@@ -1,6 +1,7 @@
 package lpsecond;
 
-//Найти max{min(a,b), min(c,d)}
+//РќР°Р№С‚Рё max{min(a,b), min(c,d)}
+
 import global.Input_value_double;
 
 public class Task_two {
