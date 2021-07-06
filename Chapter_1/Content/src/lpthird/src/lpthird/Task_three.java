@@ -1,6 +1,7 @@
 package lpthird;
 
-//Найти сумму квадратов первых ста чисел
+//РќР°Р№С‚Рё СЃСѓРјРјСѓ РєРІР°РґСЂР°С‚РѕРІ РїРµСЂРІС‹С… СЃС‚Р° С‡РёСЃРµР».
+
 import global.Input_value_int;
 
 public class Task_three {
@@ -9,14 +10,14 @@ public class Task_three {
 		Input_value_int value = new Input_value_int();
 		int q = 0;
 		long SumOfSquares = 0;
-		System.out.println("Введите начальное число");
+		System.out.println("Р’РІРµРґРёС‚Рµ РЅР°С‡Р°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
 		Input_value_int.Input_value(q);
 		int i = q;
 		while (i <= (q + 100)) {
 			SumOfSquares = SumOfSquares + (i * i);
 			i = i + 1;
 		}
-		System.out.println("Сумма квадратов 100 чисел: " + SumOfSquares);
+		System.out.println("РЎСѓРјРјР° РєРІР°РґСЂР°С‚РѕРІ 100 С‡РёСЃРµР»: " + SumOfSquares);
 
 	}
 
