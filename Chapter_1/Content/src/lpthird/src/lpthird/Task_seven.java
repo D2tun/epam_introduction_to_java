@@ -1,6 +1,6 @@
 package lpthird;
 
-//Äëÿ êàæäîãî íàòóğàëüíîãî ÷èñëà â ïğîìåæóòêå îò m äî n âûâåñòè âñå äåëèòåëè, êğîìå åäèíèöû è ñàìîãî ÷èñëà. m è n ââîäÿòñÿ ñ êëàâèîòóğû.
+//Ğ”Ğ»Ñ ĞºĞ°Ğ¶Ğ´Ğ¾Ğ³Ğ¾ Ğ½Ğ°Ñ‚ÑƒÑ€Ğ°Ğ»ÑŒĞ½Ğ¾Ğ³Ğ¾ Ñ‡Ğ¸ÑĞ»Ğ° Ğ² Ğ¿Ñ€Ğ¾Ğ¼ĞµĞ¶ÑƒÑ‚ĞºĞµ Ğ¾Ñ‚ m Ğ´Ğ¾ n Ğ²Ñ‹Ğ²ĞµÑÑ‚Ğ¸ Ğ²ÑĞµ Ğ´ĞµĞ»Ğ¸Ñ‚ĞµĞ»Ğ¸, ĞºÑ€Ğ¾Ğ¼Ğµ ĞµĞ´Ğ¸Ğ½Ğ¸Ñ†Ñ‹ Ğ¸ ÑĞ°Ğ¼Ğ¾Ğ³Ğ¾ Ñ‡Ğ¸ÑĞ»Ğ°. m Ğ¸ n Ğ²Ğ²Ğ¾Ğ´ÑÑ‚ÑÑ Ñ ĞºĞ»Ğ°Ğ²Ğ¸Ğ¾Ñ‚ÑƒÑ€Ñ‹.
 import global.Input_value_int;
 
 public class Task_seven {
@@ -17,7 +17,7 @@ public class Task_seven {
 		n = Input_value_int.Input_value(n);
 		number = m;
 		while ((number >= m) & (number <= n)) {
-			System.out.print("Äåëèòåëè " + number + ": ");
+			System.out.print("Ğ”ĞµĞ»Ğ¸Ñ‚ĞµĞ»Ğ¸ " + number + ": ");
 			for (div = 2; div < (number); div++) {
 				if (StrictMath.floorMod(number, div) == 0 & div != n & div != m) {
 					System.out.print(div + ", ");
