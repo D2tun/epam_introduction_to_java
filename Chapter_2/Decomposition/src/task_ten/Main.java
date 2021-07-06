@@ -1,7 +1,7 @@
 package task_ten;
 
-/* Дано натуральное число N. Написать метод(ы) для формирования массива, элементами которого
-являются цифры числа N. */
+/* Р”Р°РЅРѕ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ N. РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(С‹) РґР»СЏ С„РѕСЂРјРёСЂРѕРІР°РЅРёСЏ РјР°СЃСЃРёРІР°, СЌР»РµРјРµРЅС‚Р°РјРё РєРѕС‚РѕСЂРѕРіРѕ
+СЏРІР»СЏСЋС‚СЃСЏ С†РёС„СЂС‹ С‡РёСЃР»Р° N. */
 
 import global.Input_value_int;
 
@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		int number = 0;
-		System.out.print("Введите натуральное число ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ ");
 		String num = String.valueOf(Input_value_int.Input_value(number));
 		
 		char[] digit = new char[num.length()];
