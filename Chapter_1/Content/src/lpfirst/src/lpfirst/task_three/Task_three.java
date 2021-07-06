@@ -1,6 +1,6 @@
 package lpfirst.task_three;
 
-//задача: вычислить значение выражения по формуле ((sin(x)+cos(y))/(cos(x)-sin(y)))*tg(yx) (все переменные принимают действительные значения.
+//Р·Р°РґР°С‡Р°: РІС‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ РІС‹СЂР°Р¶РµРЅРёСЏ РїРѕ С„РѕСЂРјСѓР»Рµ ((sin(x)+cos(y))/(cos(x)-sin(y)))*tg(yx) (РІСЃРµ РїРµСЂРµРјРµРЅРЅС‹Рµ РїСЂРёРЅРёРјР°СЋС‚ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ Р·РЅР°С‡РµРЅРёСЏ).
 import global.Input_value_double;
 
 public class Task_three {
@@ -10,10 +10,10 @@ public class Task_three {
 		double y = 0;
 		double result = 0;
 		Input_value_double value = new Input_value_double();
-		System.out.println("Введите параметр х");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїР°СЂР°РјРµС‚СЂ С…");
 		x = Input_value_double.Input_value(x);
 		System.out.println("x=" + x);
-		System.out.println("Введите параметр y");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїР°СЂР°РјРµС‚СЂ y");
 		y = Input_value_double.Input_value(y);
 		System.out.println("y=" + y);
 		result = (((StrictMath.sin(x)) + (StrictMath.cos(y))) / ((StrictMath.cos(x) - StrictMath.sin(y)))) * StrictMath.tan(x * y);
