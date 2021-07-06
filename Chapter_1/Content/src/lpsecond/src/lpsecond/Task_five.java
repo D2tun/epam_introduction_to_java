@@ -1,6 +1,6 @@
 package lpsecond;
 
-//Вычислить функции F(x)=(x^2)-3*x+9, если x<=3; 1/((x^3)+6), если х>3.
+//Р’С‹С‡РёСЃР»РёС‚СЊ С„СѓРЅРєС†РёРё F(x)=(x^2)-3*x+9, РµСЃР»Рё x<=3; 1/((x^3)+6), РµСЃР»Рё С…>3.
 import global.Input_value_double;
 
 public class Task_five {
