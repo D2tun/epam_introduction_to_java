@@ -1,7 +1,8 @@
 package lpsecond;
 
-//Задача: даны 3 точки A(x1,y1), B(x2,y2) и C(x3,y3).
-//Определить, будут ли они расположены на одной прямой.
+//Р—Р°РґР°С‡Р°: РґР°РЅС‹ 3 С‚РѕС‡РєРё A(x1,y1), B(x2,y2) Рё C(x3,y3).
+//РћРїСЂРµРґРµР»РёС‚СЊ, Р±СѓРґСѓС‚ Р»Рё РѕРЅРё СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ РЅР° РѕРґРЅРѕР№ РїСЂСЏРјРѕР№.
+
 import global.Input_value_double;
 
 public class Task_three {
@@ -14,19 +15,19 @@ public class Task_three {
 		double y1 = 0;
 		double y2 = 0;
 		double y3 = 0;
-		System.out.println("Введите координаты первой точки");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ РїРµСЂРІРѕР№ С‚РѕС‡РєРё");
 		x1 = Input_value_double.Input_value(x1);
 		y1 = Input_value_double.Input_value(y1);
-		System.out.println("Введите координаты второй точки");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ РІС‚РѕСЂРѕР№ С‚РѕС‡РєРё");
 		x2 = Input_value_double.Input_value(x2);
 		y2 = Input_value_double.Input_value(y2);
-		System.out.println("Введите координаты третьей точки");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕРѕСЂРґРёРЅР°С‚С‹ С‚СЂРµС‚СЊРµР№ С‚РѕС‡РєРё");
 		x3 = Input_value_double.Input_value(x3);
 		y3 = Input_value_double.Input_value(y3);
 		if ((x1 == x2 & x2 == x3) | (y1 == y2 & y2 == y3)) {
-			System.out.println("Точки расположены на одной прямой");
+			System.out.println("РўРѕС‡РєРё СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ РЅР° РѕРґРЅРѕР№ РїСЂСЏРјРѕР№");
 		} else {
-			System.out.println("Точки не расположены на одной прямой");
+			System.out.println("РўРѕС‡РєРё РЅРµ СЂР°СЃРїРѕР»РѕР¶РµРЅС‹ РЅР° РѕРґРЅРѕР№ РїСЂСЏРјРѕР№");
 		}
 	}
 
