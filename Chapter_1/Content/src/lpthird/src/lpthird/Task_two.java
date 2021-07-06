@@ -1,6 +1,7 @@
 package lpthird;
 
-//Çàäà÷à: âû÷èñëèòü çíà÷åíèå ôóíêöèè y=x, x>2; -x, x<=2 íà îòðåçêå [a, b] ñ øàãîì h.
+//Ð—Ð°Ð´Ð°Ñ‡Ð°: Ð²Ñ‹Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ y=x, x>2; -x, x<=2 Ð½Ð° Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐµ [a, b] Ñ ÑˆÐ°Ð³Ð¾Ð¼ h.
+
 import global.Input_value_double;
 
 public class Task_two {
@@ -11,11 +12,11 @@ public class Task_two {
 		double b = 0;
 		double h = 0;
 		double y = 0;
-		System.out.println("Ââåäèòå ìèíèìóì");
+		System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð¸Ð½Ð¸Ð¼ÑƒÐ¼");
 		a = Input_value_double.Input_value(a);
-		System.out.println("Ââåäèòå ìàêñèìóì");
+		System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð°ÐºÑÐ¸Ð¼ÑƒÐ¼");
 		b = Input_value_double.Input_value(b);
-		System.out.println("Ââåäèòå øàã âû÷èñëåíèÿ");
+		System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑˆÐ°Ð³ Ð²Ñ‹Ñ‡Ð¸ÑÐ»ÐµÐ½Ð¸ÑÃ¿");
 		h = Input_value_double.Input_value(h);
 		for (a = a; a <= b; a += h) {
 			if (a > 2) {
