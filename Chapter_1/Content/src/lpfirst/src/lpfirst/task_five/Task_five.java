@@ -18,7 +18,7 @@ public class Task_five {
 		int S = T - (H * 3600) - (MM * 600) - (M * 60) - (SS * 10);
 
 
-		System.out.println(H + "÷ " + MM + M + "ì " + SS + S + "c");
+		System.out.println(H + "ч " + MM + M + "м " + SS + S + "c");
 		
 	}
 
