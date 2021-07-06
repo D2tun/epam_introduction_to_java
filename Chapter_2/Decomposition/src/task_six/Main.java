@@ -1,6 +1,6 @@
 package task_six;
 
-// Написать метод(ы), проверяющий, являются ли данные три числа взаимно простыми.
+// РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(С‹), РїСЂРѕРІРµСЂСЏСЋС‰РёР№, СЏРІР»СЏСЋС‚СЃСЏ Р»Рё РґР°РЅРЅС‹Рµ С‚СЂРё С‡РёСЃР»Р° РІР·Р°РёРјРЅРѕ РїСЂРѕСЃС‚С‹РјРё.
 
 import global.Input_value_int;
 import task_one.Compute_GCD_LCM;
@@ -11,7 +11,7 @@ public class Main {
 
 		int[] number = new int[3];
 		for (int i = 0; i < 3; i++) {
-			System.out.println("Введите " + (i + 1) + "-е число");
+			System.out.println("Р’РІРµРґРёС‚Рµ " + (i + 1) + "-Рµ С‡РёСЃР»Рѕ");
 			number[i] = Input_value_int.Input_value(number[i]);
 		}
 
@@ -31,9 +31,9 @@ public class Main {
 		}
 
 		if (mutually_simple == true) {
-			System.out.println("Числа являются взаимно простыми.");
+			System.out.println("Р§РёСЃР»Р° СЏРІР»СЏСЋС‚СЃСЏ РІР·Р°РёРјРЅРѕ РїСЂРѕСЃС‚С‹РјРё.");
 		} else {
-			System.out.println("Числа не являются взаимно простыми.");
+			System.out.println("Р§РёСЃР»Р° РЅРµ СЏРІР»СЏСЋС‚СЃСЏ РІР·Р°РёРјРЅРѕ РїСЂРѕСЃС‚С‹РјРё.");
 		}
 	}
 
