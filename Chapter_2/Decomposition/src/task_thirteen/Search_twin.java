@@ -5,7 +5,7 @@ public class Search_twin {
 	public static void search(int[] array) {
 
 		int count = 1;
-		System.out.println("Пары близнецов: ");
+		System.out.println("РџР°СЂС‹ Р±Р»РёР·РЅРµС†РѕРІ: ");
 				for (int i = 0; i < array.length; i++) {
 					for (int j = count; j < array.length; j++) {
 						if ((array[i] + 2) == array[j]) {
