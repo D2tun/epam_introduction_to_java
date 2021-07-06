@@ -1,9 +1,7 @@
 package lpthird;
 
-import java.util.LinkedHashSet;
-
-/*Даны 2 числа. Определить цифры, входящие в запись как первого 
-так и второго числа.*/
+/*Р”Р°РЅС‹ 2 С‡РёСЃР»Р°. РћРїСЂРµРґРµР»РёС‚СЊ С†РёС„СЂС‹, РІС…РѕРґСЏС‰РёРµ РІ Р·Р°РїРёСЃСЊ РєР°Рє РїРµСЂРІРѕРіРѕ 
+С‚Р°Рє Рё РІС‚РѕСЂРѕРіРѕ С‡РёСЃР»Р°.*/
 
 import global.Input_value_int;
 
@@ -17,14 +15,14 @@ public class Task_eight {
 		int i1 = 0;
 		int i2 = 0;
 		String c = " ";
-		System.out.print("а=");
+		System.out.print("a=");
 		a = Input_value_int.Input_value(StrictMath.abs(a));
 		System.out.print("b=");
 		b = Input_value_int.Input_value(StrictMath.abs(b));
 		
 		int nb = b;
 		
-		System.out.print("Цифры, содержащтеся в обоих числах: ");
+		System.out.print("Р¦РёС„СЂС‹, СЃРѕРґРµСЂР¶Р°С‰С‚РµСЃСЏ РІ РѕР±РѕРёС… С‡РёСЃР»Р°С…: ");
 		
 		while (a > 0) {
 			na = a % 10;
@@ -41,7 +39,7 @@ public class Task_eight {
 			b = nb;
 		}
 		System.out.println(c);
-		// конец работающей части
+
 		char [] cch = c.toCharArray();
 		StringBuilder result = new StringBuilder();
 		for (i1 = 0 ; i1<c.length(); i1++) {
