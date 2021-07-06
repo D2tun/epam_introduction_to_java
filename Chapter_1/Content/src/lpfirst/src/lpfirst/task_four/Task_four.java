@@ -1,8 +1,7 @@
 package lpfirst.task_four;
 
-import java.util.List;
+//Р—Р°РґР°С‡Р°: РґР°РЅРѕ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ R РІРёРґР° nnn.ddd. РџРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РґСЂРѕР±РЅСѓСЋ Рё С†РµР»СѓСЋ С‡Р°СЃС‚Рё С‡РёСЃР»Р° Рё РІС‹РІРµСЃС‚Рё РїРѕР»СѓС‡РµРЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ С‡РёСЃР»Р°.
 
-//Задача: дано действительное число R вида nnn.ddd. Поменять местами дробную и целую части числа и вывести полученное значение числа.
 import global.Input_value_double;
 
 public class Task_four {
@@ -10,7 +9,7 @@ public class Task_four {
 	public static void main(String[] args) {
 		double R = 0;
 		Input_value_double value = new Input_value_double();
-		System.out.println("Введите действительное число R");
+		System.out.println("Р’РІРµРґРёС‚Рµ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ R");
 		R = Input_value_double.Input_value(R);
 		double a = StrictMath.round(R);
 		double b = (R - a) * 1000;
