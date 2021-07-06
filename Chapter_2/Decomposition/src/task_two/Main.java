@@ -1,6 +1,6 @@
 package task_two;
 
-// Написать метод(ы) для нахождения наибольшего общего делителя четырёх натуральных чисел.
+// РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(С‹) РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РЅР°РёР±РѕР»СЊС€РµРіРѕ РѕР±С‰РµРіРѕ РґРµР»РёС‚РµР»СЏ С‡РµС‚С‹СЂС‘С… РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… С‡РёСЃРµР».
 
 import task_one.Compute_GCD_LCM;
 
@@ -13,14 +13,14 @@ public class Main {
 			number[i] = (int) (StrictMath.random() * 101);
 			System.out.print(number[i] + " ");
 		}
-	/**/	
+		
 		int nod = 0;
 		for (int i = 1; i < 4; i++) {
 			nod = Compute_GCD_LCM.GCD(number[i - 1], number[i]);
 		}
 		
 		System.out.println();
-		System.out.println("Набольший общий делитель: " + nod);
+		System.out.println("РќР°Р±РѕР»СЊС€РёР№ РѕР±С‰РёР№ РґРµР»РёС‚РµР»СЊ: " + nod);
 
 	}
 
