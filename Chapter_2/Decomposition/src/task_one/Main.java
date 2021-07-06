@@ -1,6 +1,6 @@
 package task_one;
 
-// Написать метод(ы) для нахожденя наибольшего общего делителя и наименьшего общего кратного 2 натуральных чисел.
+// РќР°РїРёСЃР°С‚СЊ РјРµС‚РѕРґ(С‹) РґР»СЏ РЅР°С…РѕР¶РґРµРЅСЏ РЅР°РёР±РѕР»СЊС€РµРіРѕ РѕР±С‰РµРіРѕ РґРµР»РёС‚РµР»СЏ Рё РЅР°РёРјРµРЅСЊС€РµРіРѕ РѕР±С‰РµРіРѕ РєСЂР°С‚РЅРѕРіРѕ 2 РЅР°С‚СѓСЂР°Р»СЊРЅС‹С… С‡РёСЃРµР».
 
 import global.Input_value_int;
 
@@ -9,18 +9,18 @@ public class Main {
 	public static void main(String[] args) {
 		
 		int a = 0;
-		System.out.print("Введите первое число ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ ");
 		a = Input_value_int.Input_value(a);
 		
 		int b = 0;
-		System.out.print("Введите второе число ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ ");
 		b = Input_value_int.Input_value(b);
 
 		int nod = Compute_GCD_LCM.GCD(a, b);
-		System.out.println("Наибольший общий делитель: " + nod);
+		System.out.println("РќР°РёР±РѕР»СЊС€РёР№ РѕР±С‰РёР№ РґРµР»РёС‚РµР»СЊ: " + nod);
 		
 		int nok = Compute_GCD_LCM.LCM(a, b);
-		System.out.println("Наименьшее общее кратное " + nok);
+		System.out.println("РќР°РёРјРµРЅСЊС€РµРµ РѕР±С‰РµРµ РєСЂР°С‚РЅРѕРµ " + nok);
 	}
 
 }
