@@ -57,6 +57,6 @@ public class Time {
 	}
 
 	public String get_time() {
-		return "Âğåìÿ: " + this.hours + ":" + this.minutes + ":" + this.seconds;
+		return "Ğ’Ñ€ĞµĞ¼Ñ: " + this.hours + ":" + this.minutes + ":" + this.seconds;
 	}
 }
