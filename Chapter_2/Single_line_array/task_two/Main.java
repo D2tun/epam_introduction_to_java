@@ -1,7 +1,7 @@
 package task_two;
 
-/* Дана последовательность действительных чисел a1, a2, ..., an.
-Заменить все её члены, большие данного Z, этим числом. Подсчитать количество замен. */
+/* Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹С… С‡РёСЃРµР» a1, a2, ..., an.
+Р—Р°РјРµРЅРёС‚СЊ РІСЃРµ РµС‘ С‡Р»РµРЅС‹, Р±РѕР»СЊС€РёРµ РґР°РЅРЅРѕРіРѕ Z, СЌС‚РёРј С‡РёСЃР»РѕРј. РџРѕРґСЃС‡РёС‚Р°С‚СЊ РєРѕР»РёС‡РµСЃС‚РІРѕ Р·Р°РјРµРЅ. */
 
 import global.Input_value_int;
 
@@ -15,9 +15,9 @@ public class Main {
 		String changed = "";
 		int changes = 0;
 		
-		System.out.print("Введите количество чисел в последовательности ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» РІ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚Рё ");
 		n = Input_value_int.Input_value(n);
-		System.out.print("Введите предел ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РїСЂРµРґРµР» ");
 		Z = Input_value_int.Input_value(Z);
 		
 		int[] a = new int[StrictMath.abs(n)];
@@ -29,8 +29,7 @@ public class Main {
 			
 			if (a[i] > Z) {
 				a[i] = Z;
-				changes++;
-				
+				changes++;	
 			}
 			changed += (String.valueOf(a[i]) + " ");
 		}
@@ -39,7 +38,7 @@ public class Main {
 		System.out.println();
 		System.out.print(changed);
 		System.out.println();
-		System.out.print(changes + " замен");
+		System.out.print(changes + " Р·Р°РјРµРЅ");
 
 	}
 
