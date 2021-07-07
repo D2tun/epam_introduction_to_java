@@ -30,7 +30,7 @@ public class Country {
 		return this.name;
 	}
 
-	public String get_capital() { /***/
+	public String get_capital() { 
 		boolean check = false;
 		for (int i = 0; i < area_list.size(); i++) {
 			for (int j = 0; j < area_list.get(i).get_list().size(); j++) {
