@@ -1,6 +1,6 @@
 package task_ten;
 
-// Найти положительные элементы главой дигонали квадратной матрицы.
+// РќР°Р№С‚Рё РїРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ РіР»Р°РІРѕР№ РґРёРіРѕРЅР°Р»Рё РєРІР°РґСЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹.
 
 import global.Input_value_int;
 
@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		int size = 0;
-		System.out.print("Введите размер квадратной матрицы ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РєРІР°РґСЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹ ");
 		size = StrictMath.abs(Input_value_int.Input_value(size));
 		
 		int[][] matrix = new int[size][size];
@@ -21,7 +21,7 @@ public class Main {
 			System.out.println();
 		}
 
-		System.out.print("Положительные элементы главной диагонали: ");
+		System.out.print("РџРѕР»РѕР¶РёС‚РµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ РіР»Р°РІРЅРѕР№ РґРёР°РіРѕРЅР°Р»Рё: ");
 		
 		for (int i = 0; i < size; i++) {
 			for (int j = 0; j < size; j++) {
@@ -30,7 +30,5 @@ public class Main {
 				}
 			}
 		}
-
 	}
-
 }
