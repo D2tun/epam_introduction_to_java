@@ -78,7 +78,7 @@ public class Trip_list {
 	}
 
 	public void show_list() {
-		System.out.println("Путёвки:");
+		System.out.println("РџСѓС‚С‘РІРєРё:");
 		for (int i = 0; i < trip_list.size(); i++) {
 			System.out.println(i + ") " + trip_list.get(i).get_type() + ", " + trip_list.get(i).get_number_of_days()
 					+ ", " + trip_list.get(i).get_transport() + ", " + trip_list.get(i).get_diet());
@@ -89,19 +89,19 @@ public class Trip_list {
 		Scanner sc = new Scanner(System.in);
 
 		String type = "";
-		System.out.println("Введите тип поездки (оставьте поле пустым если этот параметр не важен).");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚РёРї РїРѕРµР·РґРєРё (РѕСЃС‚Р°РІСЊС‚Рµ РїРѕР»Рµ РїСѓСЃС‚С‹Рј РµСЃР»Рё СЌС‚РѕС‚ РїР°СЂР°РјРµС‚СЂ РЅРµ РІР°Р¶РµРЅ).");
 		type = sc.nextLine();
 
 		String transport = "";
-		System.out.println("Введите вид траспорта (оставьте поле пустым если этот параметр не важен).");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІРёРґ С‚СЂР°РЅСЃРїРѕСЂС‚Р° (РѕСЃС‚Р°РІСЊС‚Рµ РїРѕР»Рµ РїСѓСЃС‚С‹Рј РµСЃР»Рё СЌС‚РѕС‚ РїР°СЂР°РјРµС‚СЂ РЅРµ РІР°Р¶РµРЅ).");
 		transport = sc.nextLine();
 
 		String diet = "";
-		System.out.println("Введите питание (оставьте поле пустым если этот параметр не важен).");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРёС‚Р°РЅРёРµ (РѕСЃС‚Р°РІСЊС‚Рµ РїРѕР»Рµ РїСѓСЃС‚С‹Рј РµСЃР»Рё СЌС‚РѕС‚ РїР°СЂР°РјРµС‚СЂ РЅРµ РІР°Р¶РµРЅ).");
 		diet = sc.nextLine();
 
 		int number_of_days = 0;
-		System.out.println("Введите количество дней (введите \"0\" если этот параметр не важен).");
+		System.out.println("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґРЅРµР№ (РІРІРµРґРёС‚Рµ \"0\" РµСЃР»Рё СЌС‚РѕС‚ РїР°СЂР°РјРµС‚СЂ РЅРµ РІР°Р¶РµРЅ).");
 		number_of_days = sc.nextInt();
 
 		sc.close();
