@@ -12,7 +12,7 @@ public class Paragraph {
 		String[] M = a.split(text);
 
 		int sequence = 0;
-		System.out.print("Введите порядок сортировки абзацев (по возрастанию - 1/по убыванию - 2) ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РїРѕСЂСЏРґРѕРє СЃРѕСЂС‚РёСЂРѕРІРєРё Р°Р±Р·Р°С†РµРІ (РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ - 1/РїРѕ СѓР±С‹РІР°РЅРёСЋ - 2) ");
 		sequence = StrictMath.abs(Input_value_int.Input_value(sequence));
 		
 		Pattern sentence = Pattern.compile("\s*[.|!|?|...]\s");
@@ -73,7 +73,7 @@ public class Paragraph {
 				}
 				
 			} else {
-				res = "Ошибка ввода. Перезапустите программу.";
+				res = "РћС€РёР±РєР° РІРІРѕРґР°. РџРµСЂРµР·Р°РїСѓСЃС‚РёС‚Рµ РїСЂРѕРіСЂР°РјРјСѓ.";
 			}
 		}
 
