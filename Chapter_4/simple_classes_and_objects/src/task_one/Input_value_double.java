@@ -9,7 +9,7 @@ public class Input_value_double {
 
 		while (!sc.hasNextDouble()) {
 			sc.next();
-			System.out.println("Неверный формат данных");
+			System.out.println("РќРµРІРµСЂРЅС‹Р№ С„РѕСЂРјР°С‚ РґР°РЅРЅС‹С…");
 		}
 		value = sc.nextDouble();
 		return value;
