@@ -23,7 +23,7 @@ public class Text_file extends File {
 		try {
 			Files.createFile(path);
 		} catch (IOException e) {
-			System.out.println("Файл с таким именем уже существует.");
+			System.out.println("Р¤Р°Р№Р» СЃ С‚Р°РєРёРј РёРјРµРЅРµРј СѓР¶Рµ СЃСѓС‰РµСЃС‚РІСѓРµС‚.");
 		}
 	}
 
@@ -35,7 +35,7 @@ public class Text_file extends File {
 			Path new_path = Path.of(super.get_directory().get_directory() + this.full_name);
 			Files.move(path, new_path);
 		} catch (IOException e) {
-			System.out.println("Файл не найден.");
+			System.out.println("Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ.");
 		}
 
 	}
@@ -46,7 +46,7 @@ public class Text_file extends File {
 		try {
 			System.out.print(Files.readString(path));
 		} catch (IOException e) {
-			System.out.println("Файл не найден.");
+			System.out.println("Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ.");
 		}
 	}
 
@@ -58,7 +58,7 @@ public class Text_file extends File {
 			this.content += sc.nextLine();
 			a.write(this.content);
 		} catch (IOException e) {
-			System.out.println("Файл не найден.");
+			System.out.println("Г”Г Г©Г« Г­ГҐ Г­Г Г©Г¤ГҐГ­.");
 		}
 		sc.close();
 
@@ -70,7 +70,7 @@ public class Text_file extends File {
 		try {
 			Files.delete(path);
 		} catch (IOException e) {
-			System.out.println("Файл не найден.");
+			System.out.println("Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ.");
 		}
 	}
 
