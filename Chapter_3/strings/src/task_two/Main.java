@@ -1,16 +1,16 @@
 package task_two;
 
-// Замените в строке все вхождения 'word' на 'letter'.
+// Р—Р°РјРµРЅРёС‚Рµ РІ СЃС‚СЂРѕРєРµ РІСЃРµ РІС…РѕР¶РґРµРЅРёСЏ 'word' РЅР° 'letter'.
 
 public class Main {
 
 	public static void main(String[] args) {
 		
 		String before = "word room point word loom word word Rolf";
-		System.out.println("До замены: " + before);
+		System.out.println("Р”Рѕ Р·Р°РјРµРЅС‹: " + before);
 		
 		String after = before.replace("word", "letter");
-		System.out.println("После замены: " + after);
+		System.out.println("РџРѕСЃР»Рµ Р·Р°РјРµРЅС‹: " + after);
 	}
 
 }
