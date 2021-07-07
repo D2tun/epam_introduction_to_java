@@ -1,7 +1,7 @@
 package task_four;
 
-/* Даны действительные числа a1, a2, ..., an.
-Поменять местами наибольший и наименьший элементы.*/
+/* Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° a1, a2, ..., an.
+РџРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РЅР°РёР±РѕР»СЊС€РёР№ Рё РЅР°РёРјРµРЅСЊС€РёР№ СЌР»РµРјРµРЅС‚С‹.*/
 
 import global.Input_value_int;
 
@@ -16,12 +16,12 @@ public class Main {
 		int posg = 0;
 		int posl = 0;
 		
-		System.out.print("Введите количество чисел ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 		int[] Array = new int[n];
 		
 		for (i = 0; i < n; i++) {
-			Array[i] = (int) StrictMath.round(StrictMath.random()*100);
+			Array[i] = (int) StrictMath.round(StrictMath.random() * 100);
 			System.out.print(Array[i] + " ");
 		}
 		for (i = 0 ; i < n; i++) {
