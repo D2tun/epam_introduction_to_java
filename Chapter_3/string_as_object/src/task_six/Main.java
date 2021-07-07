@@ -1,6 +1,6 @@
 package task_six;
 
-// Из заданной строки получить новую, повторив каждый символ дважды.
+// РР· Р·Р°РґР°РЅРЅРѕР№ СЃС‚СЂРѕРєРё РїРѕР»СѓС‡РёС‚СЊ РЅРѕРІСѓСЋ, РїРѕРІС‚РѕСЂРёРІ РєР°Р¶РґС‹Р№ СЃРёРјРІРѕР» РґРІР°Р¶РґС‹.
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Введите строку.");
+		System.out.println("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ.");
 		String a = sc.next();
 		System.out.println(a);
 
