@@ -50,7 +50,7 @@ public class Counter {
 	}
 	
 	public String get_counter_state() {
-		return "Текущее значение счёта: " + this.current_value;
+		return "РўРµРєСѓС‰РµРµ Р·РЅР°С‡РµРЅРёРµ СЃС‡С‘С‚Р°: " + this.current_value;
 	}
 
 }
