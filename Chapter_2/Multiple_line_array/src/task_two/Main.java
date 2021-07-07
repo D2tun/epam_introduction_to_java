@@ -1,6 +1,6 @@
 package task_two;
 
-// Дана квадратная матрица. Вывести на экран элементы, стоящие на диагонали.
+// Р”Р°РЅР° РєРІР°РґСЂР°С‚РЅР°СЏ РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ СЌР»РµРјРµРЅС‚С‹, СЃС‚РѕСЏС‰РёРµ РЅР° РґРёР°РіРѕРЅР°Р»Рё.
 
 import global.Input_value_int;
 
@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		int size = 0;
-		System.out.print("Введите размер квадратной матрицы ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РєРІР°РґСЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹ ");
 		size = StrictMath.abs(Input_value_int.Input_value(size));
 
 		System.out.println();
@@ -25,7 +25,7 @@ public class Main {
 		
 		System.out.println();
 
-		System.out.print("Главная диагональ: ");
+		System.out.print("Р“Р»Р°РІРЅР°СЏ РґРёР°РіРѕРЅР°Р»СЊ: ");
 		
 		for (int i = 0; i < size; i++) {
 			System.out.print(matrix[i][i] + " ");
