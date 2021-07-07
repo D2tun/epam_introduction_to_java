@@ -16,7 +16,7 @@ public class Dragon_cave {
 	}
 
 	public void show_Loot() {
-		System.out.println("Сокровища дракона: ");
+		System.out.println("РЎРѕРєСЂРѕРІРёС‰Р° РґСЂР°РєРѕРЅР°: ");
 		for (int i = 0; i < this.Loot.size(); i++) {
 			System.out.println((i + 1) + ") " + this.Loot.get(i).toString());
 		}
@@ -43,7 +43,7 @@ public class Dragon_cave {
 			}
 		}
 		if (amount != 0) {
-			Treasure valuable = new Treasure("Драгоценности на сумму" + amount, amount);
+			Treasure valuable = new Treasure("Р”СЂР°РіРѕС†РµРЅРЅРѕСЃС‚Рё РЅР° СЃСѓРјРјСѓ" + amount, amount);
 			treasure_for_the_amount.add(valuable);
 		}
 		return treasure_for_the_amount;
