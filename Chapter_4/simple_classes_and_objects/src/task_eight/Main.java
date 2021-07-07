@@ -2,13 +2,13 @@ package task_eight;
 
 import java.util.Scanner;
 
-/* Создать класс Customer, спецификация которого приведена ниже. Определить конструкторы, set- и 
-get- методы и метод toString(). Создать второй класс, агрегирующий массив типа Customer, с подходящими
-конструкторами и методами. Задать критерии выбора данных и вывести эти данные на консоль.
-	Класс Customer: id, фамилия, имя, отчество, адрес, номер кредитной карточки, номер банковского счёта.
-	Найти и вывести:
-		a) список покупателей в алфавитном порядке
-		b) список покупателей, у которых номер кредитной карточки находится в заданном интервале */
+/* РЎРѕР·РґР°С‚СЊ РєР»Р°СЃСЃ Customer, СЃРїРµС†РёС„РёРєР°С†РёСЏ РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРІРµРґРµРЅР° РЅРёР¶Рµ. РћРїСЂРµРґРµР»РёС‚СЊ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹, set- Рё 
+get- РјРµС‚РѕРґС‹ Рё РјРµС‚РѕРґ toString(). РЎРѕР·РґР°С‚СЊ РІС‚РѕСЂРѕР№ РєР»Р°СЃСЃ, Р°РіСЂРµРіРёСЂСѓСЋС‰РёР№ РјР°СЃСЃРёРІ С‚РёРїР° Customer, СЃ РїРѕРґС…РѕРґСЏС‰РёРјРё
+РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°РјРё Рё РјРµС‚РѕРґР°РјРё. Р—Р°РґР°С‚СЊ РєСЂРёС‚РµСЂРёРё РІС‹Р±РѕСЂР° РґР°РЅРЅС‹С… Рё РІС‹РІРµСЃС‚Рё СЌС‚Рё РґР°РЅРЅС‹Рµ РЅР° РєРѕРЅСЃРѕР»СЊ.
+	РљР»Р°СЃСЃ Customer: id, С„Р°РјРёР»РёСЏ, РёРјСЏ, РѕС‚С‡РµСЃС‚РІРѕ, Р°РґСЂРµСЃ, РЅРѕРјРµСЂ РєСЂРµРґРёС‚РЅРѕР№ РєР°СЂС‚РѕС‡РєРё, РЅРѕРјРµСЂ Р±Р°РЅРєРѕРІСЃРєРѕРіРѕ СЃС‡С‘С‚Р°.
+	РќР°Р№С‚Рё Рё РІС‹РІРµСЃС‚Рё:
+		a) СЃРїРёСЃРѕРє РїРѕРєСѓРїР°С‚РµР»РµР№ РІ Р°Р»С„Р°РІРёС‚РЅРѕРј РїРѕСЂСЏРґРєРµ
+		b) СЃРїРёСЃРѕРє РїРѕРєСѓРїР°С‚РµР»РµР№, Сѓ РєРѕС‚РѕСЂС‹С… РЅРѕРјРµСЂ РєСЂРµРґРёС‚РЅРѕР№ РєР°СЂС‚РѕС‡РєРё РЅР°С…РѕРґРёС‚СЃСЏ РІ Р·Р°РґР°РЅРЅРѕРј РёРЅС‚РµСЂРІР°Р»Рµ */
 
 public class Main {
 
@@ -17,52 +17,52 @@ public class Main {
 		Customer_list List = new Customer_list();
 		
 		Customer customer1 = new Customer();
-		customer1.set_address("Россия, г. Москва, ул. Есенина 45/1");
+		customer1.set_address("Р РѕСЃСЃРёСЏ, Рі. РњРѕСЃРєРІР°, СѓР». Р•СЃРµРЅРёРЅР° 45/1");
 		customer1.set_bank_account_number("20014587479312430003");
 		customer1.set_credit_card_number("4587479312430003");
 		customer1.set_id(145);
-		customer1.set_name("Григорий");
-		customer1.set_patronymic("Николаевич");
-		customer1.set_surname("Жуковский");
+		customer1.set_name("Р“СЂРёРіРѕСЂРёР№");
+		customer1.set_patronymic("РќРёРєРѕР»Р°РµРІРёС‡");
+		customer1.set_surname("Р–СѓРєРѕРІСЃРєРёР№");
 		List.add_customer(customer1);
 
 		Customer customer2 = new Customer();
-		customer2.set_address("Беларусь, г. Минск, ул. Тимирязева 12");
+		customer2.set_address("Р‘РµР»Р°СЂСѓСЃСЊ, Рі. РњРёРЅСЃРє, СѓР». РўРёРјРёСЂСЏР·РµРІР° 12");
 		customer2.set_bank_account_number("20014587479312430012");
 		customer2.set_credit_card_number("4587479312430012");
 		customer2.set_id(148);
-		customer2.set_name("Константин");
-		customer2.set_patronymic("Васильевич");
-		customer2.set_surname("Шов");
+		customer2.set_name("РљРѕРЅСЃС‚Р°РЅС‚РёРЅ");
+		customer2.set_patronymic("Р’Р°СЃРёР»СЊРµРІРёС‡");
+		customer2.set_surname("РЁРѕРІ");
 		List.add_customer(customer2);
 
 		Customer customer3 = new Customer();
-		customer3.set_address("Польша, г. Варшава, площадь Замковая 1/13");
+		customer3.set_address("РџРѕР»СЊС€Р°, Рі. Р’Р°СЂС€Р°РІР°, РїР»РѕС‰Р°РґСЊ Р—Р°РјРєРѕРІР°СЏ 1/13");
 		customer3.set_bank_account_number("20014587479312430011");
 		customer3.set_credit_card_number("4587479312430011");
 		customer3.set_id(153);
-		customer3.set_name("Ян");
+		customer3.set_name("РЇРЅ");
 		customer3.set_patronymic("");
-		customer3.set_surname("Ковальский");
+		customer3.set_surname("РљРѕРІР°Р»СЊСЃРєРёР№");
 		List.add_customer(customer3);
 		
 		Customer customer4 = new Customer();
-		customer4.set_address("Литва, г. Вильнюс, Tilto g. 21-9B");
+		customer4.set_address("Р›РёС‚РІР°, Рі. Р’РёР»СЊРЅСЋСЃ, Tilto g. 21-9B");
 		customer4.set_bank_account_number("20014587479312430045");
 		customer4.set_credit_card_number("4587479312430045");
 		customer4.set_id(151);
-		customer4.set_name("Неринга");
+		customer4.set_name("РќРµСЂРёРЅРіР°");
 		customer4.set_patronymic("");
-		customer4.set_surname("Даукантайте");
+		customer4.set_surname("Р”Р°СѓРєР°РЅС‚Р°Р№С‚Рµ");
 		List.add_customer(customer4);
 		
 		Customer customer5 = new Customer();
-		customer5.set_address("Исландия, г. Рейкьявик, Skipholt 33");
+		customer5.set_address("РСЃР»Р°РЅРґРёСЏ, Рі. Р РµР№РєСЊСЏРІРёРє, Skipholt 33");
 		customer5.set_bank_account_number("20014587479312430000");
 		customer5.set_credit_card_number("4587479312430000");
 		customer5.set_id(120);
-		customer5.set_name("Эрик");
-		customer5.set_patronymic("Бьёрнсон");
+		customer5.set_name("Р­СЂРёРє");
+		customer5.set_patronymic("Р‘СЊС‘СЂРЅСЃРѕРЅ");
 		customer5.set_surname("");
 		List.add_customer(customer5);
 		
@@ -72,9 +72,9 @@ public class Main {
 
 		String a = "";
 		String b = "";
-		System.out.println("Введите нижнюю границу номеров карт.");
+		System.out.println("Р’РІРµРґРёС‚Рµ РЅРёР¶РЅСЋСЋ РіСЂР°РЅРёС†Сѓ РЅРѕРјРµСЂРѕРІ РєР°СЂС‚.");
 		a = sc.nextLine();
-		System.out.println("Введите верхнюю границу номеров карт.");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІРµСЂС…РЅСЋСЋ РіСЂР°РЅРёС†Сѓ РЅРѕРјРµСЂРѕРІ РєР°СЂС‚.");
 		b = sc.nextLine();
 		
 		List.output_credit_card_numbers_in_range(a, b);
