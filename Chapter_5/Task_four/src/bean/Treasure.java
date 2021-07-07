@@ -19,7 +19,7 @@ public class Treasure {
 	}
 
 	public String toString() {
-		return this.name + " " + this.cost + " ç.ì.";
+		return this.name + " " + this.cost + " Ð·.Ð¼.";
 	}
 
 	@Override
