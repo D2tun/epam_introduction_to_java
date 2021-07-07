@@ -49,7 +49,7 @@ public class Airline {
 	}
 
 	public String toString() {
-		return "Рейс № " + this.airline_number + ": Время и день вылета: " + this.start_time + " " + this.day_of_week
-				+ ", Пункт назначения: " + this.destination + ", самолёт: " + this.airplane_type;
+		return "Р РµР№СЃ в„– " + this.airline_number + ": Р’СЂРµРјСЏ Рё РґРµРЅСЊ РІС‹Р»РµС‚Р°: " + this.start_time + " " + this.day_of_week
+				+ ", РџСѓРЅРєС‚ РЅР°Р·РЅР°С‡РµРЅРёСЏ: " + this.destination + ", СЃР°РјРѕР»С‘С‚: " + this.airplane_type;
 	}
 }
