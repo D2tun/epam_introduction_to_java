@@ -1,7 +1,7 @@
 package task_seven;
 
-/* Даны действительные числа a1, a2, ..., an.
-Найти max(a1+a2n, a2+a(2n-1), ..., an+a(n+1)). */
+/* Р”Р°РЅС‹ РґРµР№СЃС‚РІРёС‚РµР»СЊРЅС‹Рµ С‡РёСЃР»Р° a1, a2, ..., an.
+РќР°Р№С‚Рё max(a1+a2n, a2+a(2n-1), ..., an+a(n+1)). */
 
 import global.Input_value_int;
 
@@ -13,7 +13,7 @@ public class Main {
 		int i;
 		int ans = 0;
 
-		System.out.print("Введите количество чисел ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 
 		int[] a = new int[n];
