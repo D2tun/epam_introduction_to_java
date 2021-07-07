@@ -8,7 +8,7 @@ public class Input_value_int {
 
 		while (!sc.hasNextInt()) {
 			sc.next();
-			System.out.println("Неверный формат данных");
+			System.out.println("РќРµРІРµСЂРЅС‹Р№ С„РѕСЂРјР°С‚ РґР°РЅРЅС‹С…");
 		}
 		value = sc.nextInt();
 		return value;
