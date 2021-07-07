@@ -1,6 +1,6 @@
 package task_twelve;
 
-// Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
+// РћС‚СЃРѕСЂС‚РёСЂРѕРІР°С‚СЊ СЃС‚СЂРѕРєРё РјР°С‚СЂРёС†С‹ РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ Рё СѓР±С‹РІР°РЅРёСЋ Р·РЅР°С‡РµРЅРёР№ СЌР»РµРјРµРЅС‚РѕРІ.
 
 import global.Input_value_int;
 
@@ -9,11 +9,11 @@ public class Main {
 	public static void main(String[] args) {
 
 		int string_number = 0;
-		System.out.print("Введите количество строк ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє ");
 		string_number = StrictMath.abs(Input_value_int.Input_value(string_number));
 
 		int column_number = 0;
-		System.out.print("Введите количество столбцов ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ ");
 		column_number = StrictMath.abs(Input_value_int.Input_value(column_number));
 
 		System.out.println();
@@ -27,7 +27,7 @@ public class Main {
 			System.out.println();
 		}
 
-		System.out.println("Элементы строк по убыванию:");
+		System.out.println("Р­Р»РµРјРµРЅС‚С‹ СЃС‚СЂРѕРє РїРѕ СѓР±С‹РІР°РЅРёСЋ:");
 
 		int greater = 0;
 		int lesser = 0;
@@ -55,7 +55,7 @@ public class Main {
 			System.out.println();
 		}
 		
-		System.out.println("Элементы строк по возрастанию:");
+		System.out.println("Р­Р»РµРјРµРЅС‚С‹ СЃС‚СЂРѕРє РїРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ:");
 		
 		iteration = true;
 		for (int i = 0; i < string_number; i++) {
