@@ -17,7 +17,7 @@ public class Airline_list {
 	}
 	
 	public void airlines_to(String destination) {
-		System.out.println("Πειρϋ β " + destination + ":");
+		System.out.println("Π ΠµΠΉΡΡ‹ Π² " + destination + ":");
 		for (int i = 0; i < Airline_list.size(); i++) {
 			if (Airline_list.get(i).get_destination().contains(destination)) {
 				System.out.println(Airline_list.get(i).toString());
@@ -26,7 +26,7 @@ public class Airline_list {
 	}
 	
 	public void airlines_at_the_day_of_the_week(String day_of_the_week) {
-		System.out.println("Πειρϋ β " + day_of_the_week + ":");
+		System.out.println("Π ΠµΠΉΡΡ‹ Π² " + day_of_the_week + ":");
 		for (int i = 0; i < Airline_list.size(); i++) {
 			if (Airline_list.get(i).get_day_of_week().contains(day_of_the_week)) {
 				System.out.println(Airline_list.get(i).toString());
@@ -35,7 +35,7 @@ public class Airline_list {
 	}
 	
 	public void airlines_at_the_day_of_the_week_after_time(String day_of_the_week, String time) {
-		System.out.println("Πειρϋ β " + day_of_the_week + ":");
+		System.out.println("Π ΠµΠΉΡΡ‹ Π² " + day_of_the_week + ":");
 		for (int i = 0; i < Airline_list.size(); i++) {
 			if (Airline_list.get(i).get_day_of_week().contains(day_of_the_week) & Airline_list.get(i).get_start_time().compareTo(time) > 0) {
 				System.out.println(Airline_list.get(i).toString());
