@@ -24,39 +24,39 @@ public class Car {
 				switch (this.crashed_car_part) {
 				case 1: {
 					this.w.change_forward_left_wheel_state(true);
-					System.out.println("Поломка переднего левого колеса.");
+					System.out.println("РџРѕР»РѕРјРєР° РїРµСЂРµРґРЅРµРіРѕ Р»РµРІРѕРіРѕ РєРѕР»РµСЃР°.");
 					break;
 				}
 				case 2: {
 					this.w.change_forward_right_wheel_state(true);
-					System.out.println("Поломка переднего правого колеса.");
+					System.out.println("РџРѕР»РѕРјРєР° РїРµСЂРµРґРЅРµРіРѕ РїСЂР°РІРѕРіРѕ РєРѕР»РµСЃР°.");
 					break;
 				}
 				case 3: {
 					this.w.change_backward_right_wheel_state(true);
-					System.out.println("Поломка заднего правого колеса.");
+					System.out.println("РџРѕР»РѕРјРєР° Р·Р°РґРЅРµРіРѕ РїСЂР°РІРѕРіРѕ РєРѕР»РµСЃР°.");
 					break;
 				}
 				case 4: {
 					this.w.change_backward_left_wheel_state(true);
-					System.out.println("Поломка заднего левого колеса.");
+					System.out.println("РџРѕР»РѕРјРєР° Р·Р°РґРЅРµРіРѕ Р»РµРІРѕРіРѕ РєРѕР»РµСЃР°.");
 					break;
 				}
 				case 5: {
 					this.e.change_engine_state(true);
-					System.out.println("Поломка двигателя.");
+					System.out.println("РџРѕР»РѕРјРєР° РґРІРёРіР°С‚РµР»СЏ.");
 					break;
 				}
 				}
 			} else {
-				System.out.println("Поездка окончена успешно.");
+				System.out.println("РџРѕРµР·РґРєР° РѕРєРѕРЅС‡РµРЅР° СѓСЃРїРµС€РЅРѕ.");
 			}
 			this.fueled = false;
 		} else {
 			if (this.fueled = false) {
-				System.out.println("Требуется заправка.");
+				System.out.println("РўСЂРµР±СѓРµС‚СЃСЏ Р·Р°РїСЂР°РІРєР°.");
 			} else {
-				System.out.println("Требуется устранить поломку.");
+				System.out.println("РўСЂРµР±СѓРµС‚СЃСЏ СѓСЃС‚СЂР°РЅРёС‚СЊ РїРѕР»РѕРјРєСѓ.");
 			}
 		}
 	}
@@ -64,9 +64,9 @@ public class Car {
 	public void fuel_the_car() {
 		if (this.fueled = false) {
 			this.fueled = true;
-			System.out.println("Машина заправлена.");
+			System.out.println("РњР°С€РёРЅР° Р·Р°РїСЂР°РІР»РµРЅР°.");
 		} else {
-			System.out.println("Машина не нуждатся в заправке.");
+			System.out.println("РњР°С€РёРЅР° РЅРµ РЅСѓР¶РґР°С‚СЃСЏ РІ Р·Р°РїСЂР°РІРєРµ.");
 		}
 	}
 
@@ -74,37 +74,37 @@ public class Car {
 		switch (this.crashed_car_part) {
 		case 1: {
 			this.w.change_forward_left_wheel_state(false);
-			System.out.println("Переднее левое колесо заменено.");
+			System.out.println("РџРµСЂРµРґРЅРµРµ Р»РµРІРѕРµ РєРѕР»РµСЃРѕ Р·Р°РјРµРЅРµРЅРѕ.");
 			break;
 		}
 		case 2: {
 			this.w.change_forward_right_wheel_state(false);
-			System.out.println("Переднее правое колесо заменено.");
+			System.out.println("РџРµСЂРµРґРЅРµРµ РїСЂР°РІРѕРµ РєРѕР»РµСЃРѕ Р·Р°РјРµРЅРµРЅРѕ.");
 			break;
 		}
 		case 3: {
 			this.w.change_backward_right_wheel_state(false);
-			System.out.println("Заднее правое колесо заменено.");
+			System.out.println("Р—Р°РґРЅРµРµ РїСЂР°РІРѕРµ РєРѕР»РµСЃРѕ Р·Р°РјРµРЅРµРЅРѕ.");
 			break;
 		}
 		case 4: {
 			this.w.change_backward_left_wheel_state(false);
-			System.out.println("Заднее левое колесо заменено.");
+			System.out.println("Р—Р°РґРЅРµРµ Р»РµРІРѕРµ РєРѕР»РµСЃРѕ Р·Р°РјРµРЅРµРЅРѕ.");
 			break;
 		}
 		case 5: {
 			this.e.change_engine_state(false);
-			System.out.println("Двигатель заменён.");
+			System.out.println("Р”РІРёРіР°С‚РµР»СЊ Р·Р°РјРµРЅС‘РЅ.");
 			break;
 		}
 		default: {
-			System.out.println("Машина не нуждается в ремонте");
+			System.out.println("РњР°С€РёРЅР° РЅРµ РЅСѓР¶РґР°РµС‚СЃСЏ РІ СЂРµРјРѕРЅС‚Рµ.");
 			break;
 		}
 		}
 	}
 	
 	public void show_car_brand() {
-		System.out.println("Машина марки " + this.brand);
+		System.out.println("РњР°С€РёРЅР° РјР°СЂРєРё " + this.brand);
 	}
 }
