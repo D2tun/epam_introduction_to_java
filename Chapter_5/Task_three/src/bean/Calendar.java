@@ -64,12 +64,12 @@ public class Calendar {
 			String day_off;
 			String holiday;
 			if (this.day_off == true) {
-				day_off = "выходной";
+				day_off = "РІС‹С…РѕРґРЅРѕР№";
 			} else {
-				day_off = "будний";
+				day_off = "Р±СѓРґРЅРёР№";
 			}
 			if (this.holiday = true) {
-				holiday = "праздник";
+				holiday = "РїСЂР°Р·РґРЅРёРє";
 			} else {
 				holiday = "";
 			}
