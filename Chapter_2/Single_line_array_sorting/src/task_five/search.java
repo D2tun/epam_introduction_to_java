@@ -1,9 +1,8 @@
 package task_five;
 
 public class search {
-/**/
+
 	public static int binary(int[] array, int number ,int right_border) {
-// работает только в отсортированном массиве
 
 		int left_border = 0;
 		while (left_border <= right_border) {
