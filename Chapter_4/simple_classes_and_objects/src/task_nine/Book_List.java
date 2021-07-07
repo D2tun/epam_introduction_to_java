@@ -17,7 +17,7 @@ public class Book_List {
 	}
 
 	public void get_books_of_the_author(String author) {
-		System.out.println("Книги за авторством " + author + ":");
+		System.out.println("РљРЅРёРіРё Р·Р° Р°РІС‚РѕСЂСЃС‚РІРѕРј " + author + ":");
 		for (int i = 0; i < Book_List.size(); i++) {
 			if ((Book_List.get(i).get_author().contains(author))) {
 				System.out.println(Book_List.get(i).toString());
@@ -26,7 +26,7 @@ public class Book_List {
 	}
 
 	public void get_books_of_the_publisher(String publisher) {
-		System.out.println("Книги издательства " + publisher + ":");
+		System.out.println("РљРЅРёРіРё РёР·РґР°С‚РµР»СЊСЃС‚РІР° " + publisher + ":");
 		for (int i = 0; i < Book_List.size(); i++) {
 			if (Book_List.get(i).get_publisher().equals(publisher)) {
 				System.out.println(Book_List.get(i).toString());
@@ -35,7 +35,7 @@ public class Book_List {
 	}
 
 	public void get_books_published_after_the_year(int year) {
-		System.out.println("Книги, выпущенные после " + year + " года:");
+		System.out.println("РљРЅРёРіРё, РІС‹РїСѓС‰РµРЅРЅС‹Рµ РїРѕСЃР»Рµ " + year + " РіРѕРґР°:");
 		for (int i = 0; i < Book_List.size(); i++) {
 			if (Book_List.get(i).get_publishing_year() > year) {
 				System.out.println(Book_List.get(i).toString());
