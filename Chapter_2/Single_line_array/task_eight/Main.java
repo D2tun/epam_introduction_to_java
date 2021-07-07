@@ -1,7 +1,7 @@
 package task_eight;
 
-/* Дана последовательность чисел a1, a2, ..., an. Образовать новую последовательность,
-выбросив из исходой те члены, которые равны min(a1, a2, ..., an). */
+/* Р”Р°РЅР° РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ С‡РёСЃРµР» a1, a2, ..., an. РћР±СЂР°Р·РѕРІР°С‚СЊ РЅРѕРІСѓСЋ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ,
+РІС‹Р±СЂРѕСЃРёРІ РёР· РёСЃС…РѕРґРѕР№ С‚Рµ С‡Р»РµРЅС‹, РєРѕС‚РѕСЂС‹Рµ СЂР°РІРЅС‹ min(a1, a2, ..., an). */
 
 import global.Input_value_int;
 
@@ -13,12 +13,12 @@ public class Main {
 		int i;
 		int min = Integer.MAX_VALUE;
 		
-		System.out.print("Введите количество чисел ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 		
 		int[] arr = new int [n];
 		
-		System.out.print("Исходная последовательность: ");
+		System.out.print("РСЃС…РѕРґРЅР°СЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		
 		for (i = 0; i < n; i++) {
 			arr[i] = (int) StrictMath.round(StrictMath.random() * 100);
@@ -28,7 +28,7 @@ public class Main {
 			}
 		}
 		System.out.println();
-		System.out.print("Новая последовательность: ");
+		System.out.print("РќРѕРІР°СЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ: ");
 		
 		for(i = 0; i < n; i++) {
 			if (arr[i] != min) {
