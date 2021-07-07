@@ -59,7 +59,7 @@ public class Client_accounts_management {
 	}
 
 	public void show_account_list() {
-		System.out.println("Список счетов:");
+		System.out.println("РЎРїРёСЃРѕРє СЃС‡РµС‚РѕРІ:");
 		for (int i = 0; i < accounts.size(); i++) {
 			accounts.get(i).show_account_state();
 		}
