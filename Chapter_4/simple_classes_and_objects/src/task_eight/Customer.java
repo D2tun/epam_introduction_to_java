@@ -67,7 +67,7 @@ public class Customer {
 	}
 
 	public String toString() {
-		return this.surname + " " + this.name + " " + this.patronymic + " Кредитная карта № " + this.credit_card_number
-				+ " Банковский счёт № " + this.bank_account_number;
+		return this.surname + " " + this.name + " " + this.patronymic + " РљСЂРµРґРёС‚РЅР°СЏ РєР°СЂС‚Р° в„– " + this.credit_card_number
+				+ " Р‘Р°РЅРєРѕРІСЃРєРёР№ СЃС‡С‘С‚ в„– " + this.bank_account_number;
 	}
 }
