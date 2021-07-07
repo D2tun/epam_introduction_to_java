@@ -1,7 +1,7 @@
 package task_nine;
 
-/* Задана матрица неотрицательных чисел. Посчиать сумму элементов в каждом столбце. Определить,
-какой столбец содержит максимальную сумму. */
+/* Р—Р°РґР°РЅР° РјР°С‚СЂРёС†Р° РЅРµРѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… С‡РёСЃРµР». РџРѕСЃС‡РёР°С‚СЊ СЃСѓРјРјСѓ СЌР»РµРјРµРЅС‚РѕРІ РІ РєР°Р¶РґРѕРј СЃС‚РѕР»Р±С†Рµ. РћРїСЂРµРґРµР»РёС‚СЊ,
+РєР°РєРѕР№ СЃС‚РѕР»Р±РµС† СЃРѕРґРµСЂР¶РёС‚ РјР°РєСЃРёРјР°Р»СЊРЅСѓСЋ СЃСѓРјРјСѓ. */
 
 import global.Input_value_int;
 
@@ -10,11 +10,11 @@ public class Main {
 	public static void main(String[] args) {
 		
 		int string_number = 0;
-		System.out.print("Введите число строк ");
+		System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЃС‚СЂРѕРє ");
 		string_number = StrictMath.abs(Input_value_int.Input_value(string_number));
 		
 		int column_number = 0;
-		System.out.print("Введите число столбцов ");
+		System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЃС‚РѕР»Р±С†РѕРІ ");
 		column_number = StrictMath.abs(Input_value_int.Input_value(column_number));
 		
 		System.out.println();
@@ -33,7 +33,7 @@ public class Main {
 			for (int j = 0; j < string_number; j++) {
 				sum[i] += matrix[j][i];
 			}
-			System.out.println("Сумма элементов свтолбца " + i + ": " + sum[i]);
+			System.out.println("РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ СЃС‚РѕР»Р±С†Р° " + i + ": " + sum[i]);
 		}
 		
 		int res = 0;
@@ -51,7 +51,7 @@ public class Main {
 			}
 		}
 		
-		System.out.print(res + "-й столбец содержит максимальную сумму.");
+		System.out.print(res + "-Р№ СЃС‚РѕР»Р±РµС† СЃРѕРґРµСЂР¶РёС‚ РјР°РєСЃРёРјР°Р»СЊРЅСѓСЋ СЃСѓРјРјСѓ.");
 
 	}
 
