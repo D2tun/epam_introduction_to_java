@@ -1,7 +1,7 @@
 package task_eight;
 
-/* Даны дроби p1/q1, p2/q2, ..., pn/qn (pi, qi - натуральные). Составить программу, которая приводит эти
-дроби к общему знаменателю и упорядочивает их в порядке возрастания. */
+/* Р”Р°РЅС‹ РґСЂРѕР±Рё p1/q1, p2/q2, ..., pn/qn (pi, qi - РЅР°С‚СѓСЂР°Р»СЊРЅС‹Рµ). РЎРѕСЃС‚Р°РІРёС‚СЊ РїСЂРѕРіСЂР°РјРјСѓ, РєРѕС‚РѕСЂР°СЏ РїСЂРёРІРѕРґРёС‚ СЌС‚Рё
+РґСЂРѕР±Рё Рє РѕР±С‰РµРјСѓ Р·РЅР°РјРµРЅР°С‚РµР»СЋ Рё СѓРїРѕСЂСЏРґРѕС‡РёРІР°РµС‚ РёС… РІ РїРѕСЂСЏРґРєРµ РІРѕР·СЂР°СЃС‚Р°РЅРёСЏ. */
 
 import global.Input_value_int;
 import global.Compute_GCD_LCM;
@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		int n = 0;
-		System.out.print("Введите количество дробей ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ РґСЂРѕР±РµР№ ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 
 		int[] p = new int[n];
@@ -57,7 +57,7 @@ public class Main {
 		for (int i = 0; i < n; i++) {
 			System.out.print(p[i] + "/" + q[i] + " ");
 		}
-		/**/
+		
 		while (q[0] != q[n - 1]) {
 			for (int i = 1; i < n; i++) {
 				if (q[i] != q[i - 1]) {
