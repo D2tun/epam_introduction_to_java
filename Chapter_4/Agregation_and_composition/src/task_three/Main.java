@@ -1,18 +1,18 @@
 package task_three;
 
-/* Создать объект класса Государство, используя классы Область, Район, Город. Методы: вывести на 
-консоль столицу, количество областей, площадь, областные центры. */
+/* РЎРѕР·РґР°С‚СЊ РѕР±СЉРµРєС‚ РєР»Р°СЃСЃР° Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ, РёСЃРїРѕР»СЊР·СѓСЏ РєР»Р°СЃСЃС‹ РћР±Р»Р°СЃС‚СЊ, Р Р°Р№РѕРЅ, Р“РѕСЂРѕРґ. РњРµС‚РѕРґС‹: РІС‹РІРµСЃС‚Рё РЅР° 
+РєРѕРЅСЃРѕР»СЊ СЃС‚РѕР»РёС†Сѓ, РєРѕР»РёС‡РµСЃС‚РІРѕ РѕР±Р»Р°СЃС‚РµР№, РїР»РѕС‰Р°РґСЊ, РѕР±Р»Р°СЃС‚РЅС‹Рµ С†РµРЅС‚СЂС‹. */
 
 public class Main {
 
 	public static void main(String[] args) {
 
-		City city1 = new City("Минск", true, true, true);
-		City city2 = new City("Витебск", true, true, false);
-		City city3 = new City("Могилёв", true, true, false);
-		City city4 = new City("Гомель", true, true, false);
-		City city5 = new City("Брест", true, true, false);
-		City city6 = new City("Гродно", true, true, false);
+		City city1 = new City("РњРёРЅСЃРє", true, true, true);
+		City city2 = new City("Р’РёС‚РµР±СЃРє", true, true, false);
+		City city3 = new City("РњРѕРіРёР»С‘РІ", true, true, false);
+		City city4 = new City("Р“РѕРјРµР»СЊ", true, true, false);
+		City city5 = new City("Р‘СЂРµСЃС‚", true, true, false);
+		City city6 = new City("Р“СЂРѕРґРЅРѕ", true, true, false);
 
 		Region region1 = new Region(32800);
 		region1.add_city(city5);
@@ -40,7 +40,7 @@ public class Main {
 		Area area6 = new Area();
 		area6.add_region(region6);
 
-		Country country = new Country("Республика Беларусь");
+		Country country = new Country("Р РµСЃРїСѓР±Р»РёРєР° Р‘РµР»Р°СЂСѓСЃСЊ");
 		country.add_area(area1);
 		country.add_area(area2);
 		country.add_area(area3);
@@ -48,11 +48,11 @@ public class Main {
 		country.add_area(area5);
 		country.add_area(area6);
 
-		System.out.println("Государство: " + country.get_name());
-		System.out.println("Столица: г. " + country.get_capital());
-		System.out.println(country.get_number_of_areas() + " областей");
-		System.out.println("Площадь: " + country.get_total_area() + " км. кв.");
-		System.out.println("Областные центры: " + country.get_area_centres());
+		System.out.println("Р“РѕСЃСѓРґР°СЂСЃС‚РІРѕ: " + country.get_name());
+		System.out.println("РЎС‚РѕР»РёС†Р°: Рі. " + country.get_capital());
+		System.out.println(country.get_number_of_areas() + " РѕР±Р»Р°СЃС‚РµР№");
+		System.out.println("РџР»РѕС‰Р°РґСЊ: " + country.get_total_area() + " РєРј. РєРІ.");
+		System.out.println("РћР±Р»Р°СЃС‚РЅС‹Рµ С†РµРЅС‚СЂС‹: " + country.get_area_centres());
 
 	}
 
