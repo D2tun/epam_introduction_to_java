@@ -5,8 +5,8 @@ import global.Input_value_int;
 public class Main {
 
 	/*
-	 * В массив A[N] занесены натуральные числа. найти сумму тех элементов, которые
-	 * кратны данному К.
+	 * Р’ РјР°СЃСЃРёРІ A[N] Р·Р°РЅРµСЃРµРЅС‹ РЅР°С‚СѓСЂР°Р»СЊРЅС‹Рµ С‡РёСЃР»Р°. РЅР°Р№С‚Рё СЃСѓРјРјСѓ С‚РµС… СЌР»РµРјРµРЅС‚РѕРІ, РєРѕС‚РѕСЂС‹Рµ
+	 * РєСЂР°С‚РЅС‹ РґР°РЅРЅРѕРјСѓ Рљ.
 	 */
 
 	public static void main(String[] args) {
@@ -15,9 +15,9 @@ public class Main {
 		int N = 0;
 		int sum = 0;
 
-		System.out.print("Введите размер масcива ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°СЃcРёРІР° ");
 		N = Input_value_int.Input_value(N);
-		System.out.print("Введите кратность ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєСЂР°С‚РЅРѕСЃС‚СЊ ");
 		K = Input_value_int.Input_value(K);
 
 		int[] A = new int[StrictMath.abs(N)];
@@ -30,7 +30,7 @@ public class Main {
 			}
 		}
 		System.out.println();
-		System.out.println("Сумма чисел, кратных " + K + ": " + sum);
+		System.out.println("РЎСѓРјРјР° С‡РёСЃРµР», РєСЂР°С‚РЅС‹С… " + K + ": " + sum);
 
 	}
 
