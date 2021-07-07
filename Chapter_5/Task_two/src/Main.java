@@ -1,6 +1,6 @@
 
-/* Создать класс Payment с внутренним классом, с помощью которого можно
-сформировать покупку из нескольких товаров. */
+/* РЎРѕР·РґР°С‚СЊ РєР»Р°СЃСЃ Payment СЃ РІРЅСѓС‚СЂРµРЅРЅРёРј РєР»Р°СЃСЃРѕРј, СЃ РїРѕРјРѕС‰СЊСЋ РєРѕС‚РѕСЂРѕРіРѕ РјРѕР¶РЅРѕ
+СЃС„РѕСЂРјРёСЂРѕРІР°С‚СЊ РїРѕРєСѓРїРєСѓ РёР· РЅРµСЃРєРѕР»СЊРєРёС… С‚РѕРІР°СЂРѕРІ. */
 
 import bean.Payment;
 import bean.Payment.Good;
@@ -11,11 +11,11 @@ public class Main {
 
 		Payment p = new Payment();
 
-		Good good1 = p.new Good("джинсы", 120);
-		Good good2 = p.new Good("кофта", 65);
-		Good good3 = p.new Good("видеокамера", 200);
-		Good good4 = p.new Good("ручка", 2);
-		Good good5 = p.new Good("настольная игра", 50);
+		Good good1 = p.new Good("РґР¶РёРЅСЃС‹", 120);
+		Good good2 = p.new Good("РєРѕС„С‚Р°", 65);
+		Good good3 = p.new Good("РІРёРґРµРѕРєР°РјРµСЂР°", 200);
+		Good good4 = p.new Good("СЂСѓС‡РєР°", 2);
+		Good good5 = p.new Good("РЅР°СЃС‚РѕР»СЊРЅР°СЏ РёРіСЂР°", 50);
 
 		p.add_good(good1);
 		p.add_good(good2);
@@ -25,7 +25,7 @@ public class Main {
 
 		p.show_list();
 
-		System.out.println("Итого: " + p.get_total_cost() + " у.е.");
+		System.out.println("РС‚РѕРіРѕ: " + p.get_total_cost() + " Сѓ.Рµ.");
 
 	}
 
