@@ -18,13 +18,13 @@ public class Train {
 		String res = "";
 		for (int i = 0; i < trains.length; i++) {
 			if (trains[i].get_number() == train_number) {
-				res = "Ïîåçä ¹" + train_number + ", ìåñòî íàçíà÷åíèÿ: " + trains[i].get_destination()
-						+ ",  âðåìÿ îòïðàâëåíèÿ: " + trains[i].get_start_time() + ".";
+				res = "ÐŸÐ¾ÐµÐ·Ð´ â„– " + train_number + ", Ð¼ÐµÑÑ‚Ð¾ Ð½Ð°Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ: " + trains[i].get_destination()
+						+ ", Ð²Ñ€ÐµÐ¼Ñ Ð¾Ñ‚Ð¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ñ: " + trains[i].get_start_time() + ".";
 				break;
 			} 			
 		}
 		if (res.isEmpty()) {
-			res = "Ïîåçäà ñ òàêèì íîìåðîì íåò.";
+			res = "ÐŸÐ¾ÐµÐ·Ð´Ð° Ñ Ñ‚Ð°ÐºÐ¸Ð¼ Ð½Ð¾Ð¼ÐµÑ€Ð¾Ð¼ Ð½ÐµÑ‚.";
 		}
 		return res;
 	}
