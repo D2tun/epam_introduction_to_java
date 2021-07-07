@@ -1,6 +1,6 @@
 package task_three;
 
-// Проверить, является ли заданное слово палиндромом.
+// РџСЂРѕРІРµСЂРёС‚СЊ, СЏРІР»СЏРµС‚СЃСЏ Р»Рё Р·Р°РґР°РЅРЅРѕРµ СЃР»РѕРІРѕ РїР°Р»РёРЅРґСЂРѕРјРѕРј.
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner W = new Scanner(System.in);
-		System.out.println("Введите слово.");
+		System.out.println("Р’РІРµРґРёС‚Рµ СЃР»РѕРІРѕ.");
 		StringBuilder Word = new StringBuilder(W.next());
 
 		boolean P = false;
@@ -21,9 +21,9 @@ public class Main {
 			}
 		}
 		if (P) {
-			System.out.println("Слово '" + Word + "' является Палиндромом.");
+			System.out.println("РЎР»РѕРІРѕ '" + Word + "' СЏРІР»СЏРµС‚СЃСЏ РїР°Р»РёРЅРґСЂРѕРјРѕРј.");
 		} else {
-			System.out.println("Слово '" + Word + "' не является Палиндромом.");
+			System.out.println("РЎР»РѕРІРѕ '" + Word + "' РЅРµ СЏРІР»СЏРµС‚СЃСЏ РїР°Р»РёРЅРґСЂРѕРјРѕРј.");
 		}
 
 	}
