@@ -1,7 +1,7 @@
 package task_one;
 
-/* Дана матрица. Вывести на экран все нечётные столбцы, у которых первый элемент больше
-последнего. */
+/* Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё РЅР° СЌРєСЂР°РЅ РІСЃРµ РЅРµС‡С‘С‚РЅС‹Рµ СЃС‚РѕР»Р±С†С‹, Сѓ РєРѕС‚РѕСЂС‹С… РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ Р±РѕР»СЊС€Рµ
+РїРѕСЃР»РµРґРЅРµРіРѕ. */
 
 import global.Input_value_int;
 
@@ -10,13 +10,13 @@ public class Main {
 	public static void main(String[] args) {
 
 		int column_number = 0;
-		System.out.print("Введите количество столбцов ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ ");
 		column_number = StrictMath.abs(Input_value_int.Input_value(column_number));
 
 		System.out.println();
 
 		int string_number = 0;
-		System.out.print("Введите количество строк ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє ");
 		string_number = StrictMath.abs(Input_value_int.Input_value(string_number));
 
 		int[][] arr = new int[string_number][column_number];
