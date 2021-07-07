@@ -1,7 +1,7 @@
 package task_seven;
 
-/* Вводится строка. Требуется удалить из неё повторяющиеся символы и все пробелы. Например, если
-было введено "abc cde def", то должно быть выведено "abcdef". */
+/* Р’РІРѕРґРёС‚СЃСЏ СЃС‚СЂРѕРєР°. РўСЂРµР±СѓРµС‚СЃСЏ СѓРґР°Р»РёС‚СЊ РёР· РЅРµС‘ РїРѕРІС‚РѕСЂСЏСЋС‰РёРµСЃСЏ СЃРёРјРІРѕР»С‹ Рё РІСЃРµ РїСЂРѕР±РµР»С‹. РќР°РїСЂРёРјРµСЂ, РµСЃР»Рё
+Р±С‹Р»Рѕ РІРІРµРґРµРЅРѕ "abc cde def", С‚Рѕ РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РІС‹РІРµРґРµРЅРѕ "abcdef". */
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Введите строку.");
+		System.out.println("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ.");
 		StringBuilder st = new StringBuilder(sc.nextLine());
 
 		for (int i = 0; i < st.length(); i++) {
