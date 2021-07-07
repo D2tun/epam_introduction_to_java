@@ -1,6 +1,6 @@
 package task_four;
 
-// Сформировать квадратную матрицу поряка n по заданному образцу (см. 4 задание) (n - чётное)
+// РЎС„РѕСЂРјРёСЂРѕРІР°С‚СЊ РєРІР°РґСЂР°С‚РЅСѓСЋ РјР°С‚СЂРёС†Сѓ РїРѕСЂСЏРєР° n РїРѕ Р·Р°РґР°РЅРЅРѕРјСѓ РѕР±СЂР°Р·С†Сѓ (СЃРј. 4 Р·Р°РґР°РЅРёРµ) (n - С‡С‘С‚РЅРѕРµ)
 
 import global.Input_value_int;
 
@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		int n = 0;
-		System.out.print("Введите размер матрицы ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РјР°С‚СЂРёС†С‹ ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 		
 		int[][] matrix = new int[n][n];
@@ -28,7 +28,5 @@ public class Main {
 			}
 			System.out.println();
 		}
-
 	}
-
 }
