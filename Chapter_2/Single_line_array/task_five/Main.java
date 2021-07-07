@@ -1,7 +1,7 @@
 package task_five;
 
-/* Заданы целые числа a1, a2, ..., an. Вывести на печать только те числа, для
-которых ai>i */
+/* Р—Р°РґР°РЅС‹ С†РµР»С‹Рµ С‡РёСЃР»Р° a1, a2, ..., an. Р’С‹РІРµСЃС‚Рё РЅР° РїРµС‡Р°С‚СЊ С‚РѕР»СЊРєРѕ С‚Рµ С‡РёСЃР»Р°, РґР»СЏ
+РєРѕС‚РѕСЂС‹С… ai>i */
 
 import global.Input_value_int;
 
@@ -12,7 +12,7 @@ public class Main {
 		int i;
 		int n = 0;
 
-		System.out.print("Введите количество чисел ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 
 		int[] a = new int[n];
