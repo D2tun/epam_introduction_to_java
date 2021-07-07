@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		int arr1_size = 0;
-		System.out.print("ÂВведите размер первого массива ");
+		System.out.print("Введите размер первого массива ");
 		arr1_size = StrictMath.abs(Input_value_int.Input_value(arr1_size));
 		
 		int arr2_size = 0;
