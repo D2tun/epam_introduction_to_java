@@ -1,6 +1,6 @@
 package task_three;
 
-// Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
+// Р”Р°РЅР° РјР°С‚СЂРёС†Р°. Р’С‹РІРµСЃС‚Рё k-СЋ СЃС‚СЂРѕРєСѓ Рё p-Р№ СЃС‚РѕР»Р±РµС† РјР°С‚СЂРёС†С‹.
 
 import global.Input_value_int;
 
@@ -9,11 +9,11 @@ public class Main {
 	public static void main(String[] args) {
 
 		int column_number = 0;
-		System.out.print("Введите количество столбцов ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ ");
 		column_number = StrictMath.abs(Input_value_int.Input_value(column_number));
 
 		int string_number = 0;
-		System.out.print("Введите количество строк ");
+		System.out.print("РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂРѕРє ");
 		string_number = StrictMath.abs(Input_value_int.Input_value(string_number));
 
 		int[][] matrix = new int[string_number][column_number];
@@ -26,17 +26,17 @@ public class Main {
 		}
 
 		int k = 0;
-		System.out.print("Введите номер строки ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ СЃС‚СЂРѕРєРё ");
 		k = StrictMath.abs(Input_value_int.Input_value(k));
 
 		int p = 0;
-		System.out.print("Введите номер столбца ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ СЃС‚РѕР»Р±С†Р° ");
 		p = StrictMath.abs(Input_value_int.Input_value(p));
 
 		if (k > string_number) {
-			System.out.print("Заданая строка находится вне матрицы.");
+			System.out.print("Р—Р°РґР°РЅР°СЏ СЃС‚СЂРѕРєР° РЅР°С…РѕРґРёС‚СЃСЏ РІРЅРµ РјР°С‚СЂРёС†С‹.");
 		} else {
-			System.out.print(k + "-ая строка: ");
+			System.out.print(k + "-Р°СЏ СЃС‚СЂРѕРєР°: ");
 			for (int j = 0; j < column_number; j++) {
 				System.out.print(matrix[k-1][j] + " ");
 			}
@@ -45,14 +45,12 @@ public class Main {
 		System.out.println();
 		
 		if (p > column_number) {
-			System.out.print("Заданый столбец находится вне матрицы.");
+			System.out.print("Р—Р°РґР°РЅС‹Р№ СЃС‚РѕР»Р±РµС† РЅР°С…РѕРґРёС‚СЃСЏ РІРЅРµ РјР°С‚СЂРёС†С‹.");
 		} else {
-			System.out.print(p + "-й столбец: ");
+			System.out.print(p + "-Р№ СЃС‚РѕР»Р±РµС†: ");
 			for (int i = 0; i < string_number; i++) {
 				System.out.print(matrix[i][p-1] + " ");
 			}
 		}
-
 	}
-
 }
