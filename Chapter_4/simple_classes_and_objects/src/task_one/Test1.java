@@ -1,8 +1,8 @@
 package task_one;
 
-/* Создайте класс Test1 двумя переменными. Добавьте метод вывода на экран и методы изменения этих
-переменных. Добавьте метод, который находит сумму значений этих переменных, и метод, который находит
-наибольшее значение из этих двух переменных. */
+/* РЎРѕР·РґР°Р№С‚Рµ РєР»Р°СЃСЃ Test1 РґРІСѓРјСЏ РїРµСЂРµРјРµРЅРЅС‹РјРё. Р”РѕР±Р°РІСЊС‚Рµ РјРµС‚РѕРґ РІС‹РІРѕРґР° РЅР° СЌРєСЂР°РЅ Рё РјРµС‚РѕРґС‹ РёР·РјРµРЅРµРЅРёСЏ СЌС‚РёС…
+РїРµСЂРµРјРµРЅРЅС‹С…. Р”РѕР±Р°РІСЊС‚Рµ РјРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ РЅР°С…РѕРґРёС‚ СЃСѓРјРјСѓ Р·РЅР°С‡РµРЅРёР№ СЌС‚РёС… РїРµСЂРµРјРµРЅРЅС‹С…, Рё РјРµС‚РѕРґ, РєРѕС‚РѕСЂС‹Р№ РЅР°С…РѕРґРёС‚
+РЅР°РёР±РѕР»СЊС€РµРµ Р·РЅР°С‡РµРЅРёРµ РёР· СЌС‚РёС… РґРІСѓС… РїРµСЂРµРјРµРЅРЅС‹С…. */
 
 public class Test1 {
 
@@ -14,19 +14,19 @@ public class Test1 {
 		enter_numbers();
 		output_variables();
 		System.out.println(num1 + " + " + num2 + " = " + sum());
-		System.out.println("Наибольшее число: " + largest_number());
+		System.out.println("РќР°РёР±РѕР»СЊС€РµРµ С‡РёСЃР»Рѕ: " + largest_number());
 	}
 
 	public static void enter_numbers() {
 
-		System.out.print("Значение числа num1: ");
+		System.out.print("Р—РЅР°С‡РµРЅРёРµ С‡РёСЃР»Р° num1: ");
 		num1 = Input_value_double.Input_value(num1);
-		System.out.print("Значение числа num2: ");
+		System.out.print("Р—РЅР°С‡РµРЅРёРµ С‡РёСЃР»Р° num2: ");
 		num2 = Input_value_double.Input_value(num2);
 	}
 
 	public static void output_variables() {
-		System.out.println("Значение чисел num1 и num2:");
+		System.out.println("Р—РЅР°С‡РµРЅРёРµ С‡РёСЃРµР» num1 Рё num2:");
 		System.out.println(num1 + "; " + num2);
 	}
 
