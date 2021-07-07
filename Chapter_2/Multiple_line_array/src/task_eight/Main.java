@@ -1,8 +1,8 @@
 package task_eight;
 
-/* В числовой матрице поменять местами два столбца любых столбца, т. е. все элементы одного
-столбца поставить на соответствующие им позиции другого, а его элементы второго перемемтить
-в первый. Номера столбцов вводит пользователь с клавиатуры. */
+/* Р’ С‡РёСЃР»РѕРІРѕР№ РјР°С‚СЂРёС†Рµ РїРѕРјРµРЅСЏС‚СЊ РјРµСЃС‚Р°РјРё РґРІР° СЃС‚РѕР»Р±С†Р° Р»СЋР±С‹С… СЃС‚РѕР»Р±С†Р°, С‚. Рµ. РІСЃРµ СЌР»РµРјРµРЅС‚С‹ РѕРґРЅРѕРіРѕ
+СЃС‚РѕР»Р±С†Р° РїРѕСЃС‚Р°РІРёС‚СЊ РЅР° СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰РёРµ РёРј РїРѕР·РёС†РёРё РґСЂСѓРіРѕРіРѕ, Р° РµРіРѕ СЌР»РµРјРµРЅС‚С‹ РІС‚РѕСЂРѕРіРѕ РїРµСЂРµРјРµРјС‚РёС‚СЊ
+РІ РїРµСЂРІС‹Р№. РќРѕРјРµСЂР° СЃС‚РѕР»Р±С†РѕРІ РІРІРѕРґРёС‚ РїРѕР»СЊР·РѕРІР°С‚РµР»СЊ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹. */
 
 import global.Input_value_int;
 
@@ -11,11 +11,11 @@ public class Main {
 	public static void main(String[] args) {
 
 		int column_number = 0;
-		System.out.print("Введите число столбцов ");
+		System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЃС‚РѕР»Р±С†РѕРІ ");
 		column_number = StrictMath.abs(Input_value_int.Input_value(column_number));
 
 		int string_number = 0;
-		System.out.print("Введите число строк ");
+		System.out.print("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЃС‚СЂРѕРє ");
 		string_number = StrictMath.abs(Input_value_int.Input_value(string_number));
 
 		System.out.println();
@@ -33,11 +33,11 @@ public class Main {
 		
 		int a = 0;
 		int b = 0;
-		System.out.print("Введите номера перемещаемых столбцов (от 0 до " + (column_number-1) + ") ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂР° РїРµСЂРµРјРµС‰Р°РµРјС‹С… СЃС‚РѕР»Р±С†РѕРІ (РѕС‚ 0 РґРѕ " + (column_number-1) + ") ");
 		System.out.println();
-		System.out.print("Введите номер первого перемещаемого столбца ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РїРµСЂРІРѕРіРѕ РїРµСЂРµРјРµС‰Р°РµРјРѕРіРѕ СЃС‚РѕР»Р±С†Р° ");
 		a = StrictMath.abs(Input_value_int.Input_value(a));
-		System.out.print("Введите номер второго перемещаемого столбца ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ РІС‚РѕСЂРѕРіРѕ РїРµСЂРµРјРµС‰Р°РµРјРѕРіРѕ СЃС‚РѕР»Р±С†Р° ");
 		b = StrictMath.abs(Input_value_int.Input_value(b));
 		
 		int first_replaced = 0;
@@ -45,23 +45,22 @@ public class Main {
 		
 		if (a > column_number-1 | b > column_number-1) {
 			
-			System.out.println("Номер(а) находятся вне размерности матрицы.");
-		} else {
-		
-		for (int i = 0; i < string_number; i++) {
-			first_replaced = matrix[i][a];
-			second_replaced = matrix[i][b];
-			matrix[i][a] = second_replaced;
-			matrix[i][b] = first_replaced;
-		}
-		
-		System.out.println("Изменённая матрица: ");
-		for (int i = 0; i < string_number; i++) {
-			for (int j = 0; j < column_number; j++) {
-				System.out.print(matrix[i][j] + " ");
+			System.out.println("РќРѕРјРµСЂ(Р°) РЅР°С…РѕРґСЏС‚СЃСЏ РІРЅРµ СЂР°Р·РјРµСЂРЅРѕСЃС‚Рё РјР°С‚СЂРёС†С‹.");
+		} else {		
+			for (int i = 0; i < string_number; i++) {
+				first_replaced = matrix[i][a];
+				second_replaced = matrix[i][b];
+				matrix[i][a] = second_replaced;
+				matrix[i][b] = first_replaced;
 			}
-			System.out.println();
-		}
+
+			System.out.println("РР·РјРµРЅС‘РЅРЅР°СЏ РјР°С‚СЂРёС†Р°: ");
+			for (int i = 0; i < string_number; i++) {
+				for (int j = 0; j < column_number; j++) {
+					System.out.print(matrix[i][j] + " ");
+				}
+				System.out.println();
+			}
 		}
 	}
 
