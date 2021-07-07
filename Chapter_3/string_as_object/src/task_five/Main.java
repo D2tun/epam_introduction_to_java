@@ -1,6 +1,6 @@
 package task_five;
 
-// Подсчитать, сколько раз среди символов заданной строки встречается буква "a".
+// РџРѕРґСЃС‡РёС‚Р°С‚СЊ, СЃРєРѕР»СЊРєРѕ СЂР°Р· СЃСЂРµРґРё СЃРёРјРІРѕР»РѕРІ Р·Р°РґР°РЅРЅРѕР№ СЃС‚СЂРѕРєРё РІСЃС‚СЂРµС‡Р°РµС‚СЃСЏ Р±СѓРєРІР° "a".
 
 import java.util.Scanner;
 
@@ -9,16 +9,16 @@ public class Main {
 	public static void main(String[] args) {
 	
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Введите строку.");
+		System.out.println("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ.");
 		String enter = sc.next();
 
 		int count = 0;
 		for (int i = 0; i < enter.length(); i++) {
-			if (enter.charAt(i) == 'a' | enter.charAt(i) == 'а') {
+			if (enter.charAt(i) == 'a' | enter.charAt(i) == 'Г ') {
 				count++;
 			}
 		}
-		System.out.println("Буква 'a' встретилась " + count + " раз.");
+		System.out.println("Р‘СѓРєРІР° 'a' РІСЃС‚СЂРµС‚РёР»Р°СЃСЊ " + count + " СЂР°Р·.");
 	}
 
 }
