@@ -20,7 +20,7 @@ public class Pack {
 
 	@Override
 	public String toString() {
-		return "Упаковка: " + this.type + ", цена: " + this.cost + " у.е.";
+		return "РЈРїР°РєРѕРІРєР°: " + this.type + ", С†РµРЅР°: " + this.cost + " Сѓ.Рµ.";
 	}
 
 	@Override
