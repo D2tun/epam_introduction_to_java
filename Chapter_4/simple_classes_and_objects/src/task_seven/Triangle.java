@@ -20,7 +20,7 @@ public class Triangle {
 		super();
 		if ((point1x == point2x & point1y == point2y) | (point2x == point3x & point2y == point3y)
 				| (point3x == point1x & point3y == point1y)) {
-			System.out.println("Это не треугольник.");
+			System.out.println("Р­С‚Рѕ РЅРµ С‚СЂРµСѓРіРѕР»СЊРЅРёРє.");
 		} else {
 			this.point1x = point1x;
 			this.point1y = point1y;
