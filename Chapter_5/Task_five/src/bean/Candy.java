@@ -29,7 +29,7 @@ public class Candy {
 
 	@Override
 	public String toString() {
-		return this.name + " " + this.quantity + " ψς., φενΰ: " + (this.cost * this.quantity) + " σ.ε.";
+		return this.name + " " + this.quantity + " ΡΡ‚., Ρ†ΠµΠ½Π°: " + (this.cost * this.quantity) + " Ρƒ.Πµ.";
 	}
 
 	@Override
