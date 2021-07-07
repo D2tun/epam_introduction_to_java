@@ -1,6 +1,6 @@
 package task_six;
 
-// Сформировать квадратную матрицу порядка n по заданному образцу (см. задание 6)(n - чётное)
+// РЎС„РѕСЂРјРёСЂРѕРІР°С‚СЊ РєРІР°РґСЂР°С‚РЅСѓСЋ РјР°С‚СЂРёС†Сѓ РїРѕСЂСЏРґРєР° n РїРѕ Р·Р°РґР°РЅРЅРѕРјСѓ РѕР±СЂР°Р·С†Сѓ (СЃРј. Р·Р°РґР°РЅРёРµ 6)(n - С‡С‘С‚РЅРѕРµ)
 
 import global.Input_value_int;
 
@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		int n = 0;
-		System.out.print("Введите размер квадратной матрицы ");
+		System.out.print("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ РєРІР°РґСЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹ ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 
 		System.out.println();
