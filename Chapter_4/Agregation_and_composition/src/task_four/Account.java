@@ -15,11 +15,11 @@ public class Account {
 	public void show_account_state() {
 		String b = "";
 		if (this.blocked = true) {
-			b = "заблокирован";
+			b = "Р·Р°Р±Р»РѕРєРёСЂРѕРІР°РЅ";
 		} else {
 			b = "";
 		}
-		System.out.println(this.account + ": " + this.money + " у.е." + " " + b);
+		System.out.println(this.account + ": " + this.money + " Сѓ.Рµ." + " " + b);
 	}
 
 	public long get_money() {
