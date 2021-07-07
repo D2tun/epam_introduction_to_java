@@ -2,15 +2,15 @@ package task_nine;
 
 import global.Input_value_int;
 
-/* В массиве целых чисел с количеством элементов n найти наиболее часто встречающееся
-число. Если таких чисел несколько, то определить наименьшее из них. */
+/* Р’ РјР°СЃСЃРёРІРµ С†РµР»С‹С… С‡РёСЃРµР» СЃ РєРѕР»РёС‡РµСЃС‚РІРѕРј СЌР»РµРјРµРЅС‚РѕРІ n РЅР°Р№С‚Рё РЅР°РёР±РѕР»РµРµ С‡Р°СЃС‚Рѕ РІСЃС‚СЂРµС‡Р°СЋС‰РµРµСЃСЏ
+С‡РёСЃР»Рѕ. Р•СЃР»Рё С‚Р°РєРёС… С‡РёСЃРµР» РЅРµСЃРєРѕР»СЊРєРѕ, С‚Рѕ РѕРїСЂРµРґРµР»РёС‚СЊ РЅР°РёРјРµРЅСЊС€РµРµ РёР· РЅРёС…. */
 
 public class Main {
 
 	public static void main(String args[]) {
 
 		int n = 0;
-		System.out.print("Введите количество элементов ");
+		System.out.print("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ ");
 		n = StrictMath.abs(Input_value_int.Input_value(n));
 
 		int[] ar = new int[n];
@@ -21,7 +21,6 @@ public class Main {
 			System.out.print(ar[i] + " ");
 		}
 		
-		// Пузырьковая сортировка
 		System.out.println();
 		int greater = 0;
 		int lesser = 0;
@@ -41,7 +40,7 @@ public class Main {
 		for (int i = 0; i<n;i++) {
 			System.out.print(ar[i] + " ");
 		}
-		//
+		
 		int[] f = new int[n];
 
 		int max = 0;
@@ -59,7 +58,7 @@ public class Main {
 
 		int[] f_check = new int[n];
 
-		System.out.print("Наиболее часто встречающиеся числа: ");
+		System.out.print("РќР°РёР±РѕР»РµРµ С‡Р°СЃС‚Рѕ РІСЃС‚СЂРµС‡Р°СЋС‰РёРµСЃСЏ С‡РёСЃР»Р°: ");
 		 for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				if ((((f[i] == max) & (f_check[i] != ar[j])))) {
@@ -80,10 +79,9 @@ public class Main {
 				}
 		 }
 				
-		// почти работает
 		System.out.println();
 		if (min != Integer.MAX_VALUE) {
-			System.out.print("Меньшее из них: " + min);
+			System.out.print("РњРµРЅСЊС€РµРµ РёР· РЅРёС…: " + min);
 		}
 	}
 
