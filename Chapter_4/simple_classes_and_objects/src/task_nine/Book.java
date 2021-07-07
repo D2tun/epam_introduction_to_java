@@ -76,8 +76,8 @@ public class Book {
 	}
 
 	public String toString() {
-		return "Книга(" + id + "): \"" + this.name + "\"; автор(ы): " + this.author + "; издательство: "
-				+ this.publisher + " " + this.publishing_year + "г.; " + this.pages + "c.; " + "цена: " + this.cost
-				+ "; " + this.cover + " переплёт.";
+		return "РљРЅРёРіР°(" + id + "): \"" + this.name + "\"; Р°РІС‚РѕСЂ(С‹): " + this.author + "; РёР·РґР°С‚РµР»СЊСЃС‚РІРѕ: "
+				+ this.publisher + " " + this.publishing_year + "Рі.; " + this.pages + "c.; " + "С†РµРЅР°: " + this.cost
+				+ "; " + this.cover + " РїРµСЂРµРїР»С‘С‚.";
 	}
 }
