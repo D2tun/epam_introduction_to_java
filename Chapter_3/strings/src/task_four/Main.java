@@ -1,6 +1,6 @@
 package task_four;
 
-// В строке найти количество чисел.
+// Р’ СЃС‚СЂРѕРєРµ РЅР°Р№С‚Рё РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР».
 
 public class Main {
 
@@ -29,7 +29,7 @@ public class Main {
 		}
 
 		System.out.println(s);
-		System.out.println("Чисел в строке: " + count);
+		System.out.println("Р§РёСЃРµР» РІ СЃС‚СЂРѕРєРµ: " + count);
 	}
 
 }
