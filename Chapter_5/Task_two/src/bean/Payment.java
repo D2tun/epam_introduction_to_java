@@ -49,7 +49,7 @@ public class Payment {
 
 		@Override
 		public String toString() {
-			return this.name + " " + this.cost + " ó.å.";
+			return this.name + " " + this.cost + " Ñƒ.Ðµ.";
 		}
 
 		@Override
