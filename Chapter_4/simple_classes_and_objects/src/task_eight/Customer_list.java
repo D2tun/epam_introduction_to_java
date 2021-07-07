@@ -30,7 +30,7 @@ public class Customer_list {
 				}
 			}
 		}
-		System.out.println("Список покупателей в алфавитном порядке:");
+		System.out.println("РЎРїРёСЃРѕРє РїРѕРєСѓРїР°С‚РµР»РµР№ РІ Р°Р»С„Р°РІРёС‚РЅРѕРј РїРѕСЂСЏРґРєРµ:");
 		for (int i = 0; i < this.Customers_List.size(); i++) {
 			System.out.println(this.Customers_List.get(i).toString());
 		}
@@ -41,8 +41,8 @@ public class Customer_list {
 			String tmp = high_border;
 			high_border = low_border;
 			low_border = tmp;
-		}/***/
-		System.out.println("Поупатели с номерами кредитных карт от " + low_border + " до " + high_border + ":");
+		}
+		System.out.println("РџРѕСѓРїР°С‚РµР»Рё СЃ РЅРѕРјРµСЂР°РјРё РєСЂРµРґРёС‚РЅС‹С… РєР°СЂС‚ РѕС‚ " + low_border + " РґРѕ " + high_border + ":");
 		for (int i = 0; i < this.Customers_List.size(); i++) {
 			if (this.Customers_List.get(i).get_credit_card_number().compareTo(low_border) >= 0 
 					& this.Customers_List.get(i).get_credit_card_number().compareTo(high_border) <= 0) {
