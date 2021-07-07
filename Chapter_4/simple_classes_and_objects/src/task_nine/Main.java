@@ -1,13 +1,13 @@
 package task_nine;
 
-/* Создать класс Book, спецификация которого приведена ниже. Определить конструкторы, set- и get-
-методы и метод toString(). Создать второй класс, агрегирующий массив типа Book, с подходящими 
-конструкторами и методати. Задать критерии выбора данных и вывести эти данные на консоль.
-Book: id, название, автор(ы), издательство, год издания, количество страниц, цена, тип переплёта.
-Найти и вывести:
-	а) список книг заданного автора;
-	b) список книг, выпущнных заданным издательством;
-	c) список книг, выпущенных после заданного года. */
+/* РЎРѕР·РґР°С‚СЊ РєР»Р°СЃСЃ Book, СЃРїРµС†РёС„РёРєР°С†РёСЏ РєРѕС‚РѕСЂРѕРіРѕ РїСЂРёРІРµРґРµРЅР° РЅРёР¶Рµ. РћРїСЂРµРґРµР»РёС‚СЊ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹, set- Рё get-
+РјРµС‚РѕРґС‹ Рё РјРµС‚РѕРґ toString(). РЎРѕР·РґР°С‚СЊ РІС‚РѕСЂРѕР№ РєР»Р°СЃСЃ, Р°РіСЂРµРіРёСЂСѓСЋС‰РёР№ РјР°СЃСЃРёРІ С‚РёРїР° Book, СЃ РїРѕРґС…РѕРґСЏС‰РёРјРё 
+РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°РјРё Рё РјРµС‚РѕРґР°С‚Рё. Р—Р°РґР°С‚СЊ РєСЂРёС‚РµСЂРёРё РІС‹Р±РѕСЂР° РґР°РЅРЅС‹С… Рё РІС‹РІРµСЃС‚Рё СЌС‚Рё РґР°РЅРЅС‹Рµ РЅР° РєРѕРЅСЃРѕР»СЊ.
+Book: id, РЅР°Р·РІР°РЅРёРµ, Р°РІС‚РѕСЂ(С‹), РёР·РґР°С‚РµР»СЊСЃС‚РІРѕ, РіРѕРґ РёР·РґР°РЅРёСЏ, РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅРёС†, С†РµРЅР°, С‚РёРї РїРµСЂРµРїР»С‘С‚Р°.
+РќР°Р№С‚Рё Рё РІС‹РІРµСЃС‚Рё:
+	Р°) СЃРїРёСЃРѕРє РєРЅРёРі Р·Р°РґР°РЅРЅРѕРіРѕ Р°РІС‚РѕСЂР°;
+	b) СЃРїРёСЃРѕРє РєРЅРёРі, РІС‹РїСѓС‰РЅРЅС‹С… Р·Р°РґР°РЅРЅС‹Рј РёР·РґР°С‚РµР»СЊСЃС‚РІРѕРј;
+	c) СЃРїРёСЃРѕРє РєРЅРёРі, РІС‹РїСѓС‰РµРЅРЅС‹С… РїРѕСЃР»Рµ Р·Р°РґР°РЅРЅРѕРіРѕ РіРѕРґР°. */
 
 import java.util.Scanner;
 
@@ -19,73 +19,73 @@ public class Main {
 		
 		Book book1 = new Book();
 		book1.set_id(52);
-		book1.set_name("Теория электропривода");
-		book1.set_author("Б. И. Фираго, Л. Б. Павлячик");
-		book1.set_publisher("Техноперспектива");
+		book1.set_name("РўРµРѕСЂРёСЏ СЌР»РµРєС‚СЂРѕРїСЂРёРІРѕРґР°");
+		book1.set_author("Р‘. Р. Р¤РёСЂР°РіРѕ, Р›. Р‘. РџР°РІР»СЏС‡РёРє");
+		book1.set_publisher("РўРµС…РЅРѕРїРµСЂСЃРїРµРєС‚РёРІР°");
 		book1.set_publishing_year(2007);
 		book1.set_pages(585);
-		book1.set_cost("10р. 54к.");
-		book1.set_cover("твёрдый");
+		book1.set_cost("10СЂ. 54Рє.");
+		book1.set_cover("С‚РІС‘СЂРґС‹Р№");
 		Books.add_book(book1);
 		
 		Book book2 = new Book();
 		book2.set_id(53);
-		book2.set_name("Векторные системы управления электроприводами");
-		book2.set_author("Б. И. Фираго, Д. С. Васильев");
-		book2.set_publisher("Вышэйшая школа");
+		book2.set_name("Р’РµРєС‚РѕСЂРЅС‹Рµ СЃРёСЃС‚РµРјС‹ СѓРїСЂР°РІР»РµРЅРёСЏ СЌР»РµРєС‚СЂРѕРїСЂРёРІРѕРґР°РјРё");
+		book2.set_author("Р‘. Р. Р¤РёСЂР°РіРѕ, Р”. РЎ. Р’Р°СЃРёР»СЊРµРІ");
+		book2.set_publisher("Р’С‹С€СЌР№С€Р°СЏ С€РєРѕР»Р°");
 		book2.set_publishing_year(2016);
 		book2.set_pages(159);
-		book2.set_cost("4р. 86к.");
-		book2.set_cover("мягкий");
+		book2.set_cost("4СЂ. 86Рє.");
+		book2.set_cover("РјСЏРіРєРёР№");
 		Books.add_book(book2);
 		
 		Book book3 = new Book();
 		book3.set_id(54);
-		book3.set_name("Электронные схемы. Практическое руководство");
-		book3.set_author("Дж. Ленк");
-		book3.set_publisher("Мир");
+		book3.set_name("Р­Р»РµРєС‚СЂРѕРЅРЅС‹Рµ СЃС…РµРјС‹. РџСЂР°РєС‚РёС‡РµСЃРєРѕРµ СЂСѓРєРѕРІРѕРґСЃС‚РІРѕ");
+		book3.set_author("Р”Р¶. Р›РµРЅРє");
+		book3.set_publisher("РњРёСЂ");
 		book3.set_publishing_year(1985);
 		book3.set_pages(344);
-		book3.set_cost("9р. 83к.");
-		book3.set_cover("мягкий");
+		book3.set_cost("9СЂ. 83Рє.");
+		book3.set_cover("РјСЏРіРєРёР№");
 		Books.add_book(book3);
 		
 		Book book4 = new Book();
 		book4.set_id(55);
-		book4.set_name("Ктулху");
-		book4.set_author("Г. Лавкрафт");
-		book4.set_publisher("АСТ");
+		book4.set_name("РљС‚СѓР»С…Сѓ");
+		book4.set_author("Р“. Р›Р°РІРєСЂР°С„С‚");
+		book4.set_publisher("РђРЎРў");
 		book4.set_publishing_year(2017);
 		book4.set_pages(832);
-		book4.set_cost("42р. 23к.");
-		book4.set_cover("твёрдый");
+		book4.set_cost("42СЂ. 23Рє.");
+		book4.set_cover("С‚РІС‘СЂРґС‹Р№");
 		Books.add_book(book4);
 		
 		Book book5 = new Book();
 		book5.set_id(56);
 		book5.set_name("1984");
-		book5.set_author("Дж. Оруэлл");
-		book5.set_publisher("АСТ");
+		book5.set_author("Р”Р¶. РћСЂСѓСЌР»Р»");
+		book5.set_publisher("РђРЎРў");
 		book5.set_publishing_year(2013);
 		book5.set_pages(320);
-		book5.set_cost("7р. 85к.");
-		book5.set_cover("мягкий");
+		book5.set_cost("7СЂ. 85Рє.");
+		book5.set_cover("РјСЏРіРєРёР№");
 		Books.add_book(book5);
 
 		Scanner sc = new Scanner(System.in);
 		String a = "";
-		System.out.println("Введите инициалы и фамилию автора.");
+		System.out.println("Р’РІРµРґРёС‚Рµ РёРЅРёС†РёР°Р»С‹ Рё С„Р°РјРёР»РёСЋ Р°РІС‚РѕСЂР°.");
 		a = sc.nextLine();
 		Books.get_books_of_the_author(a);
 		
 		
 		String b = "";
-		System.out.println("Введите издателя.");
+		System.out.println("Р’РІРµРґРёС‚Рµ РёР·РґР°С‚РµР»СЏ.");
 		b = sc.nextLine();
 		Books.get_books_of_the_publisher(b);
 	
 		int c = 0;
-		System.out.println("Введите год.");
+		System.out.println("Р’РІРµРґРёС‚Рµ РіРѕРґ.");
 		c = sc.nextInt();
 		Books.get_books_published_after_the_year(c);
 		
