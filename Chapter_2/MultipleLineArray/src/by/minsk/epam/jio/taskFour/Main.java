@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskFour;
-
 /*
  * Сформировать квадратную матрицу порядка n по заданному образцу. 
  */
+
+package by.minsk.epam.jio.taskFour;
 
 import by.minsk.epam.jio.input.ValueInt;
 
@@ -21,7 +21,6 @@ public class Main {
 					matrix[i][j] = j + 1;
 					System.out.print(matrix[i][j] + " ");
 				}
-
 			} else {
 				for (int j = 0, k = n; j < n; j++, k--) {
 					matrix[i][j] = k;
