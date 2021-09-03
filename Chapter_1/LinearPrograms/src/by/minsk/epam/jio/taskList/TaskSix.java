@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskList;
-
 /* 
  * Для данной области (задание 6) составить линейную программу, которая
  * перчатает true, если точка с координатами (х,у) принадлежит закрашенной
  * области, и false - в противном случае.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
