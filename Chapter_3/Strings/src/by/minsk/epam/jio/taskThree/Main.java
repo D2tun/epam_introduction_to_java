@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskThree;
-
 /* 
  * В строке найти количество цифр.
  */
+
+package by.minsk.epam.jio.taskThree;
 
 public class Main {
 
