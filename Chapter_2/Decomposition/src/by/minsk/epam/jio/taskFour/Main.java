@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskFour;
-
 /*
  * На плоскости заданы своими координатами n точек. Написать метод(ы),
  * определяющие, между какими из пар точек самое большое расстояние. Указание.
  * Координаты точек занести в массив.
  */
+
+package by.minsk.epam.jio.taskFour;
 
 import by.minsk.epam.jio.input.ValueInt;
 
