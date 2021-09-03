@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskTwo;
-
 /* 
  * Дана последовательность действительных чисел a1, a2, ..., an. Заменить все
  * её члены, большие данного Z, этим числом. Подсчитать количество замен.
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskTwo;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -18,9 +18,9 @@ public class Main {
 		int changes = 0;
 		
 		System.out.print("Введите количество чисел в последовательности ");
-		n = Input_value_int.Input_value(n);
+		n = ValueInt.inputValue(n);
 		System.out.print("Введите предел ");
-		Z = Input_value_int.Input_value(Z);
+		Z = ValueInt.inputValue(Z);
 		
 		int[] a = new int[StrictMath.abs(n)];
 		
