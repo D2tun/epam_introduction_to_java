@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskFifteen;
-
 /*
  * Найдите наибольший элемент матрицы и заменить все нечётные элементы на него.
  */
+
+package by.minsk.epam.jio.taskFifteen;
 
 import by.minsk.epam.jio.input.ValueInt;
 
