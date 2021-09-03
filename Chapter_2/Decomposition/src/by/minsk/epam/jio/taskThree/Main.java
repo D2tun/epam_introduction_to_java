@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskThree;
-
 /*
  * Вычислить площадь правильного шестиугольника со стороной а, используя метод
  * вычисления площади треугольника.
  */
+
+package by.minsk.epam.jio.taskThree;
 
 import by.minsk.epam.jio.input.ValueDouble;
 
