@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskThree;
-
 /* 
  * Создайте класс с именем Student, содержащий поля: фамилия и инициалы, номер 
  * группы, успеваемость (массив из пяти элементов). Создайте массив из десяти 
  * элементов такого типа. Добавьте возможность вывода фамилий и номеров групп 
  * студентов, имеющих оценки, равные только 9 или 10.
  */
+
+package by.minsk.epam.jio.taskThree;
 
 public class Main {
 
@@ -31,7 +31,7 @@ public class Main {
 				marks += m[j] + " ";
 			}
 			System.out.println(Students[i].getName() + " " 
-							  + Students[i].getGroup() + " " + marks);
+					  + Students[i].getGroup() + " " + marks);
 		}
 
 		System.out.println("Список отличников:");
@@ -48,7 +48,7 @@ public class Main {
 			}
 			if (check) {
 				System.out.println(Students[i].getName() + " " 
-								  + Students[i].getGroup() + " " + marks);
+						  + Students[i].getGroup() + " " + marks);
 			}
 		}
 	}
