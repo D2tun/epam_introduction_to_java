@@ -2,9 +2,9 @@ package by.minsk.epam.jio.input;
 
 import java.util.Scanner;
 
-public class Input_value_int {
+public class ValueInt {
 	
-	public static int Input_value(int value) {
+	public static int inputValue(int value) {
 		
 		Scanner sc = new Scanner(System.in);
 
