@@ -25,13 +25,12 @@ public class Main {
 		int[] a = new int[StrictMath.abs(n)];
 		
 		for (int i = 0; i < n; i++) {
-			
 			a[i] = (int) StrictMath.round(StrictMath.random() * 100);
 			unchanged += (String.valueOf(a[i]) + " ");
 			
 			if (a[i] > Z) {
-				a[i] = Z;	changes++;
-				
+				a[i] = Z;	
+				changes++;
 			}
 			changed += (String.valueOf(a[i]) + " ");
 		}
