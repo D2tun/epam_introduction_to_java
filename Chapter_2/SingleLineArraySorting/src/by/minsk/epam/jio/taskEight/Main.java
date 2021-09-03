@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskEight;
-
 /* 
  * Даны дроби p1/q1, p2/q2, ..., pn/qn (pi, qi - натуральные). Составить
  * программу, которая приводит эти дроби к общему знаменателю и упорядочивает
  * их в порядке возрастания.
  */
+
+package by.minsk.epam.jio.taskEight;
 
 import by.minsk.epam.jio.other.GCDOrLCM;
 import by.minsk.epam.jio.other.ValueInt;
