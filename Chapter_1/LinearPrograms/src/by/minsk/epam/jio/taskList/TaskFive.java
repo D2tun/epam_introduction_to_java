@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Дано натуральное число T, которое представляет длительность прошедшего
  * времени в секундах. Вывести данное значение длительности в часах, минутах и
  * секундах в следующей форме: HHч MMмин SSc.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueInt;
 
