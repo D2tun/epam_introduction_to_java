@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Вычислить функции F(x)=(x^2)-3*x+9, если x<=3; 1/((x^3)+6), если х>3.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
