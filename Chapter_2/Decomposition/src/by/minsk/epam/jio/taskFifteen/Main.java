@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskFifteen;
-
 /*
  * Найти все натуральные числа, цифры в которых образуют строго возрастающую
  * последовательность (например, 1234, 5789). Для решения задачи использовать
  * декомпозицию.
  */
+
+package by.minsk.epam.jio.taskFifteen;
 
 import by.minsk.epam.jio.input.ValueInt;
 import by.minsk.epam.jio.taskTwelve.NumberToDigits;
