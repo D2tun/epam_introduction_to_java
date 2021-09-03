@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Напишите программу, где пользователь вводит любое целое положительное число.
  * А программа суммирует все числа от 1 до введённого пользователем числа.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueInt;
 
