@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskSix;
-
 /*
  * Написать метод(ы), проверяющий, являются ли данные три числа взаимно
  * простыми.
  */
+
+package by.minsk.epam.jio.taskSix;
 
 import by.minsk.epam.jio.input.ValueInt;
 import by.minsk.epam.jio.taskOne.GCDOrLCM;
