@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskSixteen;
-
 /*
  * Написать программу, определяющую сумму n - значных чисел, содержащих только
  * нечётные цифры. Опредеить также, сколько чётных цифр в найденной сумме. Для
  * решения задачи использовать декомпозицию.
  */
+
+package by.minsk.epam.jio.taskSixteen;
 
 import by.minsk.epam.jio.input.ValueInt;
 import by.minsk.epam.jio.taskTwelve.NumberToDigits;
