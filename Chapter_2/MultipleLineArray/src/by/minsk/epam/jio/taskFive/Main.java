@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskFive;
-
 /*
- * Сформировать квадратную матрицу порядка n по заданному образцую.
+ * Сформировать квадратную матрицу порядка n по заданному образцу.
  */
+
+package by.minsk.epam.jio.taskFive;
 
 import by.minsk.epam.jio.input.ValueInt;
 
