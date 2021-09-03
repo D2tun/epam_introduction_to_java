@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskSeven;
-
 /* 
  * Опишите класс, представляющий треугольник. Предусмотреть методы для 
  * создания объектов, вычисления площади, периметра и точки пересечения 
  * медиан. 
  */
+
+package by.minsk.epam.jio.taskSeven;
 
 public class Main {
 
@@ -14,7 +14,7 @@ public class Main {
 		System.out.println("Периметр треугольника: " + a.getPerimeter());
 		System.out.println("Площадь треугольника: " + a.getArea());
 		System.out.println("Координаты точки пересечения меридиaн: x = " 
-						   + a.getMedianCrossing()[0] + "; y = " 
-						   + a.getMedianCrossing()[1]);
+				   + a.getMedianCrossing()[0] + "; y = " 
+				   + a.getMedianCrossing()[1]);
 	}
 }
