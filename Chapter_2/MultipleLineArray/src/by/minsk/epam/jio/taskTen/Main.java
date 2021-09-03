@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskTen;
-
 /*
  * Найти положительные элементы главной диагонали квадратной матрицы.
  */
+
+package by.minsk.epam.jio.taskTen;
 
 import by.minsk.epam.jio.input.ValueInt;
 
