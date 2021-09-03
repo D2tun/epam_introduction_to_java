@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskThree;
-
 /*
  * Дана матрица. Вывести k-ю строку и p-й столбец матрицы.
  */
+
+package by.minsk.epam.jio.taskThree;
 
 import by.minsk.epam.jio.input.ValueInt;
 
