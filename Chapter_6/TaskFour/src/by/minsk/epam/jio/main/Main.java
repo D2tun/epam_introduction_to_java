@@ -1,8 +1,3 @@
-package by.minsk.epam.jio.main;
-import java.util.Scanner;
-
-import by.minsk.epam.jio.bean.*;
-
 /*
  * Многопоточность. Порт. Корабли захдят в порт для разгрузки/загрузки 
  * контейнеров. Число контейнеров, находящихся в текущий момент в порту и на 
@@ -12,6 +7,10 @@ import by.minsk.epam.jio.bean.*;
  * разгружаться.
  */
 
+package by.minsk.epam.jio.main;
+
+import java.util.Scanner;
+import by.minsk.epam.jio.bean.*;
 
 public class Main {
 
