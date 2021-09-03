@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Даны размеры А, В прямоугльного отверстия и размеры x, y, z, кирпича.
  * Определить, пройдёт и кирпич через отверстие.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
