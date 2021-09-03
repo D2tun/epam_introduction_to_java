@@ -1,12 +1,12 @@
-package by.minsk.epam.jio.taskTen;
-
 /* 
  * Дан целочисленный массив с количеством элементов n. Сжать массив, выбросив
  * из него каждый второй элемент (освободившиеся элементы заполнить нулями).
  * Примечание. Дополнительный массив не использовать.
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskTen;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -15,7 +15,7 @@ public class Main {
 		int c = 1;
 		int n = 0;
 		System.out.print("Введите размер массива ");
-		n = StrictMath.abs(Input_value_int.Input_value(n));
+		n = StrictMath.abs(ValueInt.inputValue(n));
 		
 		System.out.println();
 		
