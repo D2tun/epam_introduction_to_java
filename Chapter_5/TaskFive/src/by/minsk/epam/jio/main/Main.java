@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.main;
-
 /*
  * Создать консольное приложения, удовлетворяющее следующим требованиям:
  * - Корректно спроектируйте и реализуйте предметную область задачи.
@@ -22,6 +20,8 @@ package by.minsk.epam.jio.main;
  * (объект, представляющий собой подарок). Составляющими целого подарка 
  * являются сладости и упаковка. 
  */
+
+package by.minsk.epam.jio.main;
 
 import by.minsk.epam.jio.bean.*;
 import by.minsk.epam.jio.builder.Gift;
