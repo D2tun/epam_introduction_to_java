@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskTwo;
-
 /*
  * Дана квадратная марица. Вывести на экран элементы, стоящие на диагонали.
  */
+
+package by.minsk.epam.jio.taskTwo;
 
 import by.minsk.epam.jio.input.ValueInt;
 
