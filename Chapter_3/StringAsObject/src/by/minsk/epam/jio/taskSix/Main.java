@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskSix;
-
 /*
  * Из заданной строки получить новую, повторив каждый символ дважды.
  */
+
+package by.minsk.epam.jio.taskSix;
 
 import java.util.Scanner;
 
