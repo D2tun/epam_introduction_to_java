@@ -1,13 +1,13 @@
-package by.minsk.epam.jio.taskFive;
-
-import java.util.ArrayList;
-
 /* 
  * Туристические путёвки. Сформировать набор предложений клиенту по выбору 
  * туристической путёвки различного типа (отдых, экскурсии, лечение, шопинг, 
  * круиз и т.д.) для оптимального выбоа. Учитывать возможность выбора 
  * транспорта, питания и числа дней. Реализовать выбор и сортировку путёвок. 
  */
+
+package by.minsk.epam.jio.taskFive;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -50,9 +50,9 @@ public class Main {
 		System.out.println("Подходящие путёвки:");
 		for (int i = 0; i < t.size(); i++) {
 			System.out.println(t.get(i).getType() + ": транспорт - " 
-							   + t.get(i).getTransport() + ", питание - "
-							   + t.get(i).getDiet() + ", дней - " 
-							   + t.get(i).getNumberOfDays());
+					   + t.get(i).getTransport() + ", питание - "
+					   + t.get(i).getDiet() + ", дней - " 
+					   + t.get(i).getNumberOfDays());
 		}
 	}
 }
