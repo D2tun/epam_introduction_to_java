@@ -1,12 +1,12 @@
-package by.minsk.epam.jio.taskNine;
-
 /*
  * В массиве целых чисел с количеством элементов n найти наиболее часто
  * встречающееся число. Если таких чисел несколько, то определить наименьшее из
  * них.
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskNine;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -14,7 +14,7 @@ public class Main {
 
 		int n = 0;
 		System.out.print("Введите количество элементов ");
-		n = StrictMath.abs(Input_value_int.Input_value(n));
+		n = StrictMath.abs(ValueInt.inputValue(n));
 
 		int[] ar = new int[n];
 
