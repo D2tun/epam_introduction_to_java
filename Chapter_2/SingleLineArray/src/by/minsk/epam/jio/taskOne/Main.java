@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskOne;
-
 /*
  * В массив A[N] занесены натуральные числа. Найти сумму тех элементов,
  * которые кратны данному К.
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskOne;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -16,9 +16,9 @@ public class Main {
 		int sum = 0;
 
 		System.out.print("Введите размер масcива ");
-		N = Input_value_int.Input_value(N);
+		N = ValueInt.inputValue(N);
 		System.out.print("Введите кратность ");
-		K = Input_value_int.Input_value(K);
+		K = ValueInt.inputValue(K);
 
 		int[] A = new int[StrictMath.abs(N)];
 
