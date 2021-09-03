@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskFourteen;
-
 /*
  * Натуральное число, в записи которого n цифр, называется числом Армстронга,
  * если сумма его цифр, возведённая в степень n, равна самому числу. Найти все
  * числе Армстронга от 1 до k. Для решения задачи использовать декомпозицию.
  */
+
+package by.minsk.epam.jio.taskFourteen;
 
 import by.minsk.epam.jio.input.ValueInt;
 import by.minsk.epam.jio.taskTwelve.NumberToDigits;
