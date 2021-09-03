@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskFour;
-
 /*
  * Даны действительные числа а1, а2,..., an. Поменять местами наибольший и
  * наменьший элементы.
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskFour;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -19,7 +19,7 @@ public class Main {
 		int posL = 0;
 		
 		System.out.print("Введите длину массива ");
-		n = StrictMath.abs(Input_value_int.Input_value(n));
+		n = StrictMath.abs(ValueInt.inputValue(n));
 		int[] array = new int[n];
 		
 		for (i = 0; i < n; i++) {
