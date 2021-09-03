@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskOne;
-
 /* 
  * Создать объект класса Текст, используя классы Предложение, Слово. Методы:
  * дополнить текст, вывести на консоль текст, заголовок текста. 
  */
+
+package by.minsk.epam.jio.taskOne;
 
 public class Main {
 
