@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskFive;
-
 /*
  *  Подсчитать, сколько раз среди символов заданной строки встречается буква
  *  "a".
  */
+
+package by.minsk.epam.jio.taskFive;
 
 import java.util.Scanner;
 
