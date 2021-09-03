@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskTwo;
-
 /* 
  * Замените в строке все вхождения 'word' на 'letter'.
  */
+
+package by.minsk.epam.jio.taskTwo;
 
 public class Main {
 
