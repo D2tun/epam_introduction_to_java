@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Даны числовой ряд и некоторое число е. Найти сумму тех членов ряда, модуль
  * которых больше или равен заданному е.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
