@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskFive;
-
 /*
  * Составить программу, которая в массиве A[N] находит второе по величине число
  * (вывести на печать число, которое меньше максимального элемента массива, но
  * больше всех других элементов).
  */
+
+package by.minsk.epam.jio.taskFive;
 
 import by.minsk.epam.jio.input.ValueInt;
 
