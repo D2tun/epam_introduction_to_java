@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskTwelve;
-
 /*
  * Отсортировать строки матрицы по возрастанию и убыванию значений элементов.
  */
+
+package by.minsk.epam.jio.taskTwelve;
 
 import by.minsk.epam.jio.input.ValueInt;
 
