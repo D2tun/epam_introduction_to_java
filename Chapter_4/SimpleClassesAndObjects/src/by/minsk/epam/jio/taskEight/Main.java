@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.taskEight;
-
 /* 
  * Создать класс Customer, спецификация которого приведена ниже. Определить
  * конструкторы, set- и get- методы и метод toString(). Создать второй класс, 
@@ -12,6 +10,8 @@ package by.minsk.epam.jio.taskEight;
  *		b) список покупателей, у которых номер кредитной карточки находится в 
  *		заданном интервале 
  */
+
+package by.minsk.epam.jio.taskEight;
 
 import java.util.Scanner;
 
