@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Дано действительное число R вида nnn.ddd. Поменять местами дробную и целую
  * части числа и вывести полученное значение числа.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
