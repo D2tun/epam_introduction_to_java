@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskTen;
-
 /*
  * Дано Натуральное число N. Написать метод(ы) для формирования массива,
  * элементами которого являются цифры числа N.
  */
+
+package by.minsk.epam.jio.taskTen;
 
 import by.minsk.epam.jio.input.ValueInt;
 
