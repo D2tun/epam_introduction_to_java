@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskEight;
-
 /*
  *  Вводится строка слов, разделённых пробелами. Найти самое длинное слово и
  * вывести его на экран. Случай, когда саых длинных слов может быть несколько,
  * не обрабатывать.
  */
+
+package by.minsk.epam.jio.taskEight;
 
 import java.util.Scanner;
 
