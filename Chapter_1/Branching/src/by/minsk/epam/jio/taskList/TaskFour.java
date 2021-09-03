@@ -26,7 +26,7 @@ public class TaskFour {
 		y = InputValueDouble.inputValue(y);
 		z = InputValueDouble.inputValue(z);
 
-		if ((A > x || A > y || A > z) & (B > y || B > x || B > z)) {
+		if (((A > x) || (A > y) || (A > z)) & ((B > y) || (B > x) || (B > z))) {
 			System.out.println("Кирпич пройдёт");
 		} else {
 			System.out.println("Кирпич не пройдёт");
