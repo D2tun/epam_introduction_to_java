@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskTwelve;
-
 /*
  * Даны натуральные числа K и N. Написать метод(ы) формирования массива А,
  * элементами которого являются числа, сумма цифр которых равна K и которые не
  * больше N.
  */
+
+package by.minsk.epam.jio.taskTwelve;
 
 import by.minsk.epam.jio.input.ValueInt;
 
