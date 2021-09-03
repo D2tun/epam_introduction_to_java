@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskOne;
-
 /*
  * Дан массив переменных в camelCase. Преобразовать названия в snake_case.
  */
+
+package by.minsk.epam.jio.taskOne;
 
 public class Main {
 
