@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskSeventeen;
-
 /*
  * Из заданного числа вычли сумму его цифр. Из результата вновь вычл сумму его
  * цифр и т.д. Сколько таких операций надо произвести, чтобы получился нуль?
  * Для решения задачи использовать декомпозицию.
  */
+
+package by.minsk.epam.jio.taskSeventeen;
 
 import by.minsk.epam.jio.input.ValueInt;
 import by.minsk.epam.jio.taskTwelve.NumberToDigits;
