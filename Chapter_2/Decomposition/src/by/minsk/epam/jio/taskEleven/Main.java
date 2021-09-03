@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskEleven;
-
 /*
  * Написать метод(ы), определяющий, в каком из двух чисел больше цифр.
  */
+
+package by.minsk.epam.jio.taskEleven;
 
 import by.minsk.epam.jio.input.ValueInt;
 
