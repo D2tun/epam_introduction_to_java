@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskEight;
-
 /*
  * В числовой матрице поменять местами два столбца любых столбца, т.е. все
  * элементы одного столбца поставить на соответствующие им позиции другого, а
  * его элементы второго переместить в первый. Номера стобцов вводит пользователь
  * с клавиатуры.
  */
+
+package by.minsk.epam.jio.taskEight;
 
 import by.minsk.epam.jio.input.ValueInt;
 
@@ -49,7 +49,6 @@ public class Main {
 		int secondReplaced = 0;
 
 		if ((a > columnNumber - 1) | (b > columnNumber - 1)) {
-
 			System.out.println("Номер(а) находятся вне размерности матрицы.");
 		} else {
 			for (int i = 0; i < stringNumber; i++) {
