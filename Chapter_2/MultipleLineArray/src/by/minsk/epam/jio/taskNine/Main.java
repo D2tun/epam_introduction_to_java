@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskNine;
-
 /*
  * Задана матрица неотрицательных чисел. Посчитать сумму элеметов в каждом
  * столбце. Определить, какой столбец содержит максимальную сумму
  */
+
+package by.minsk.epam.jio.taskNine;
 
 import by.minsk.epam.jio.input.ValueInt;
 
