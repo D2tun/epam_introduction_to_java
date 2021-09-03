@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.taskTen;
-
 /*
  * Создать класс Airline, спецификация которого приведена ниже. Определить 
  * конструкторы, set- и get- методы и метод toString(). Создать второй класс, 
@@ -12,6 +10,8 @@ package by.minsk.epam.jio.taskTen;
  *		c) список рейсов для заданного дня недели, время вылета для которых больше
  *		заданного.
  */
+
+package by.minsk.epam.jio.taskTen;
 
 import java.util.Scanner;
 
