@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.taskNine;
-
 /* 
  * Создать класс Book, спецификация которого приведена ниже. Определить 
  * конструкторы, set- и get- методы и метод toString(). Создать второй класс, 
@@ -12,6 +10,8 @@ package by.minsk.epam.jio.taskNine;
  *		b) список книг, выпущнных заданным издательством;
  *		c) список книг, выпущенных после заданного года. 
  */
+
+package by.minsk.epam.jio.taskNine;
 
 import java.util.Scanner;
 
