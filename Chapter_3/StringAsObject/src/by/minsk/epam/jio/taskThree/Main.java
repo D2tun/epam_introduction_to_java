@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskThree;
-
 /*
  * Проверить, является ли заданное слово палиндромом.
  */
+
+package by.minsk.epam.jio.taskThree;
 
 import java.util.Scanner;
 
