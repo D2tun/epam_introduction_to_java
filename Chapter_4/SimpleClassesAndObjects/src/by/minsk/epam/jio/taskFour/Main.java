@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.taskFour;
-
 /* 
  * Создайте класс Train, содержащий поля: название пункта назначения, номер 
  * поезда, время отправления. Создайте данные в массив из пяти элементов типа 
@@ -9,6 +7,8 @@ package by.minsk.epam.jio.taskFour;
  * причём поезда с одинаковыми пунктами назначения должны быть упорядочены по 
  * времени отправления. 
  */
+
+package by.minsk.epam.jio.taskFour;
 
 public class Main {
 
@@ -32,23 +32,23 @@ public class Main {
 		Train.sortByNumber(trains);
 
 		System.out.println("Список маршрутов поездов c сортировкой по "
-				          + "номерам:");
+				   + "номерам:");
 		
 		for (int i = 0; i < 5; i++) {
 			System.out.println(i + ") " + trains[i].getDestination() + ", " 
-							   + trains[i].getNumber() + ", " 
-							   + trains[i].getStartTime());
+					   + trains[i].getNumber() + ", " 
+					   + trains[i].getStartTime());
 		}
 		
 		Train.sortByDestination(trains);
 		
 		System.out.println("Список маршрутов поездов c сортировкой по пунктам "
-						  + "назначения:");
+				  + "назначения:");
 		
 		for (int i = 0; i < 5; i++) {
 			System.out.println(i + ") " + trains[i].getDestination() + ", " 
-							   + trains[i].getNumber() + ", " 
-							   + trains[i].getStartTime());
+					   + trains[i].getNumber() + ", " 
+					   + trains[i].getStartTime());
 		}
 		
 		int num = 0;
