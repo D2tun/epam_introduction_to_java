@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskList;
-
 /* 
  * Вычислить значение выражения по формуле 
  * ((b+(((b^2)-4*a*c)^(1/2))/(2*a))-(a^3)*3+(b^-2) (все переменные принимают
  * действительные значения).
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
@@ -30,7 +30,7 @@ public class TaskTwo {
 		System.out.println("c=" + c);
 
 		sum = (b + StrictMath.sqrt(StrictMath.pow(b, 2) + 4 * a * c)) - StrictMath.pow(a, 3) * c
-				+ StrictMath.pow(b, -2);
+		      + StrictMath.pow(b, -2);
 		System.out.println("результат: " + sum);
 	}
 }
