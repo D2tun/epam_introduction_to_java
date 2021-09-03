@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskSix;
-
 /*
  * Задана последовательность N вещественных чисел. Вычислить сумму чисел,
  * порядковые номера которых являются простыми числами.
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskSix;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -15,7 +15,7 @@ public class Main {
 		int sum = 0;
 		
 		System.out.print("Введите количество чисел ");
-		N = StrictMath.abs(Input_value_int.Input_value(N));
+		N = StrictMath.abs(ValueInt.inputValue(N));
 		
 		int[] a = new int[N];
 		for (int i = 0; i < N; i++) {
