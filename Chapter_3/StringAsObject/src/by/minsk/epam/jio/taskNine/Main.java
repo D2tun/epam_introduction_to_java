@@ -28,7 +28,7 @@ public class Main {
 		}
 		
 		System.out.println("В строке английских прописных букв " + counterBig
-						  + ", строчных букв " + counterSmall + ".");
+				   + ", строчных букв " + counterSmall + ".");
 		sc.close();
 	}
 }
