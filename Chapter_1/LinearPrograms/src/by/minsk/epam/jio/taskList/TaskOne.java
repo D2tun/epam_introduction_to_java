@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Вычислить выражение z=((a-3)*b/2)+c
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
