@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Даны 3 точки A(x1,y1), B(x2,y2) и C(x3,y3). Определить, будут ли они
  * расположены на одной прямой.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
