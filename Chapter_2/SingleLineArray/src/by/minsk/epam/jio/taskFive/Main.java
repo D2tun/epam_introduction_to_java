@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskFive;
-
 /*
  * Даны целые числа a1, a2,..., an. Вывести на печать только те числа, для
  * которых ai > i.
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskFive;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -15,7 +15,7 @@ public class Main {
 		int n = 0;
 
 		System.out.print("Введите длину массива ");
-		n = StrictMath.abs(Input_value_int.Input_value(n));
+		n = StrictMath.abs(ValueInt.inputValue(n));
 
 		int[] a = new int[n];
 
