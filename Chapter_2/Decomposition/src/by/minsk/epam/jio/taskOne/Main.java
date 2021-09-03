@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskOne;
-
 /*
  * Написать метод(ы) для нахождения наибольшего общего делителя и наименьшего
  * общего кратного двух натуральных чисел.
  */
+
+package by.minsk.epam.jio.taskOne;
 
 import by.minsk.epam.jio.input.ValueInt;
 
