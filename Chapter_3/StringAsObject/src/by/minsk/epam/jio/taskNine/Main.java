@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskNine;
-
 /* 
  * Посчитать количество строчных (маленьких) и прописных (больших) букв в
  * введенной строке. Учитывать только английские буквы.
  */
+
+package by.minsk.epam.jio.taskNine;
 
 import java.util.Scanner;
 
