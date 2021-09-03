@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskOne;
-
 /*
  * Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в
  * нём.
  */
+
+package by.minsk.epam.jio.taskOne;
 
 public class Main {
 
@@ -25,6 +25,7 @@ public class Main {
 			}		
 		}
 
-		System.out.println("Наибольшее количества подряд идущих пробелов: " + result);
+		System.out.println("Наибольшее количества подряд идущих пробелов: " 
+				   + result);
 	}
 }
