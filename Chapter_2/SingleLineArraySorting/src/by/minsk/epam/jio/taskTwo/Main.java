@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskTwo;
-
 /* 
  * Даны последовательности a1<a2<...<an и b1<b2<...<bm. Образовать из них новую
  * последовательность чисел так, чтобы она тоже была неубывающей. Примечание.
  * Дополнительный массив не использовать.
  */
+
+package by.minsk.epam.jio.taskTwo;
 
 import by.minsk.epam.jio.other.ValueInt;
 
