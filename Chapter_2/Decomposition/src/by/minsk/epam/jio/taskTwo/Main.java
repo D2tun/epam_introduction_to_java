@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskTwo;
-
 /*
  * Написать метод(ы) для нахождения наибольшего общего делителя четырёх
  * натуральных чисел.
  */
+
+package by.minsk.epam.jio.taskTwo;
 
 import by.minsk.epam.jio.taskOne.GCDOrLCM;
 
