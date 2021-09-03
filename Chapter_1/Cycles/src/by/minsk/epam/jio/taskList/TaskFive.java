@@ -30,6 +30,6 @@ public class TaskFive {
 			negN--;
 		}
 		System.out.println("Сумма членов ряда, больших, по модулю, чем " + e 
-						   + " :" + " " + absSum);
+				   + " :" + " " + absSum);
 	}
 }
