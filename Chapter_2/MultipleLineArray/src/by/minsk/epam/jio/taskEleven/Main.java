@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskEleven;
-
 /* 
  * Матрицу 10х20 заполнить случайными числами от 0 до 15. Вывесли на экран саму
  * матрицу и номера строк, в которых число 5 встречается три и более раз. 
  */
+
+package by.minsk.epam.jio.taskEleven;
 
 public class Main {
 
