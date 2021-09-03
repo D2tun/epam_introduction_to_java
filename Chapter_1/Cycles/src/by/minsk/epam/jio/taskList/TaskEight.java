@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Даны 2 числа. Определить цифры, входящие в запись как первого так и второго
  * числа.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueInt;
 
