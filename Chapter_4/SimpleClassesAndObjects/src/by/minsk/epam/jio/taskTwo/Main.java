@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskTwo;
-
 /* 
  * Создайте класс Test2 двумя переменными. Добавьте конструктор с входными
  * пераметрами. Добавьте конструктор, инициализирующий члены класса по 
  * умолчанию. Добавьте set- и get- методы для полей экземпляра класса. 
  */
+
+package by.minsk.epam.jio.taskTwo;
 
 import by.minsk.epam.jio.taskOne.ValueDouble;
 
