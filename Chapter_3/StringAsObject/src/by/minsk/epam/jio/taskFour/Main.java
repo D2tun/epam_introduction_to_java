@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskFour;
-
 /* 
  * С помощью функции копирования и операции конкатенации составить из частей
  * слова "информатика" слово "торт".
  */
+
+package by.minsk.epam.jio.taskFour;
 
 public class Main {
 
