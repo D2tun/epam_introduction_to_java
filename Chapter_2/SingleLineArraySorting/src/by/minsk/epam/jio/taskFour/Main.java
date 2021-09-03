@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.taskFour;
-
 /* 
  * Сортировка обменами. Дана последовательность чисел a1=<a2=<...=<an.
  * Требуется переставить числа в порядке возрастания. Для этого сравниваются
@@ -8,6 +6,8 @@ package by.minsk.epam.jio.taskFour;
  * порядке возрастания. Составить алгоритм сортировки, подсчитывая количество
  * перестановок.
  */
+
+package by.minsk.epam.jio.taskFour;
 
 import by.minsk.epam.jio.other.ValueInt;
 
