@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskSix;
-
 /*
  * Сформировать квадратную матрицу порядка n  по заданному образцу(n - четное)
  */
+
+package by.minsk.epam.jio.taskSix;
 
 import by.minsk.epam.jio.input.ValueInt;
 
