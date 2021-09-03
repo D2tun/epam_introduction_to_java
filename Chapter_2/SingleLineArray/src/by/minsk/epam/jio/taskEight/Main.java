@@ -6,7 +6,7 @@
 
 package by.minsk.epam.jio.taskEight;
 
-import by.minsk.epam.jio.input.Input_value_int;
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -17,7 +17,7 @@ public class Main {
 		int min = Integer.MAX_VALUE;
 		
 		System.out.print("Введите длину массива ");
-		n = StrictMath.abs(Input_value_int.Input_value(n));
+		n = StrictMath.abs(ValueInt.inputValue(n));
 		
 		int[] arr = new int [n];
 		
