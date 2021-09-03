@@ -37,12 +37,12 @@ public class TaskTwo {
 			cdMin = c;
 		}
 
-		double MaxOfMin = 0;
+		double maxOfMin = 0;
 		if (abMin >= cdMin) {
-			MaxOfMin = cdMin;
+			maxOfMin = cdMin;
 		} else {
-			MaxOfMin = abMin;
+			maxOfMin = abMin;
 		}
-		System.out.println(MaxOfMin);
+		System.out.println(maxOfMin);
 	}
 }
