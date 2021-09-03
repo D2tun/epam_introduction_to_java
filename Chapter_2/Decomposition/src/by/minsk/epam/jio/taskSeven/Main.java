@@ -1,9 +1,10 @@
-package by.minsk.epam.jio.taskSeven;
 
 /*
  * Написать метод(ы) для вычисления суммы факториалов всех нечётных чисел от 1
  * до 9.
  */
+
+package by.minsk.epam.jio.taskSeven;
 
 public class Main {
 
