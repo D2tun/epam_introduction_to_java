@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskTwo;
-
 /*
  * В строке вставить после каждого символа 'a' символ 'b'.
  */
+
+package by.minsk.epam.jio.taskTwo;
 
 public class Main {
 
