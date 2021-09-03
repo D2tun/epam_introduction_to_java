@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Вычислить значение выражения по формуле
  * ((sin(x)+cos(y))/(cos(x)-sin(y)))*tg(yx)
  * (все переменные принимают действительные значения).
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
@@ -25,7 +25,9 @@ public class TaskThree {
 		System.out.println("y=" + y);
 
 		result = (((StrictMath.sin(x)) + (StrictMath.cos(y))) /
-				((StrictMath.cos(x) - StrictMath.sin(y)))) * StrictMath.tan(x * y);
+			 ((StrictMath.cos(x) - StrictMath.sin(y)))) 
+			 * StrictMath.tan(x * y);
+		
 		System.out.println(
 				"((sin(" + x + ")+cos(" + y + "))/(cos(" + x + ")-sin(" + y
 				+ ")))*tg(" + x * y + ")=" + result);
