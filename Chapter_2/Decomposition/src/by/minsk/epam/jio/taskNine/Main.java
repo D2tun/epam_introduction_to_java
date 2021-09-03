@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskNine;
-
 /* 
  * Даны числа X, Y, Z, T - длины сторон четырёхугольника. Написать метод(ы)
  * вычисления его площади, если угол между сторонами длиной X и Y - прямой. 
  */
+
+package by.minsk.epam.jio.taskNine;
 
 public class Main {
 
