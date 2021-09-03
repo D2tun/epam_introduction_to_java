@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskFive;
-
 /* 
  * Удалить в строке все лишние пробелы, то есть серии подряд идущих пробелов
  * заменить на одиночные пробелы. Крайние пробелы в строке удалить.
  */
+
+package by.minsk.epam.jio.taskFive;
 
 public class Main {
 
