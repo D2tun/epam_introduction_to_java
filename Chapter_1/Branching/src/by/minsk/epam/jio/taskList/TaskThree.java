@@ -27,7 +27,7 @@ public class TaskThree {
 		x3 = InputValueDouble.inputValue(x3);
 		y3 = InputValueDouble.inputValue(y3);
 
-		if ((x1 == x2 & x2 == x3) | (y1 == y2 & y2 == y3)) {
+		if (((x1 == x2) & (x2 == x3)) | ((y1 == y2) & (y2 == y3))) {
 			System.out.println("Точки расположены на одной прямой");
 		} else {
 			System.out.println("Точки не расположены на одной прямой");
