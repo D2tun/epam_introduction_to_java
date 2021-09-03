@@ -1,11 +1,11 @@
-package by.minsk.epam.jio.taskSeven;
-
 /*
  * Даны действительные числа a1, a2, ..., an.
  * Найти max(a1+a2n, a2+a(2n-1), ..., an+a(n+1)).
  */
 
-import by.minsk.epam.jio.input.Input_value_int;
+package by.minsk.epam.jio.taskSeven;
+
+import by.minsk.epam.jio.input.ValueInt;
 
 public class Main {
 
@@ -16,7 +16,7 @@ public class Main {
 		int ans = 0;
 
 		System.out.print("Введите количество чисел ");
-		n = StrictMath.abs(Input_value_int.Input_value(n));
+		n = StrictMath.abs(ValueInt.inputValue(n));
 
 		int[] a = new int[n];
 
