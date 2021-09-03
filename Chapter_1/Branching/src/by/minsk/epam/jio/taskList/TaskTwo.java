@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Найти max{min(a,b), min(c,d)}.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
@@ -23,25 +23,25 @@ public class TaskTwo {
 		d = InputValueDouble.inputValue(d);
 		System.out.println("d=" + d);
 
-		double ab_min = 0;
-		double cd_min = 0;
+		double abMin = 0;
+		double cdMin = 0;
 
 		if (a >= b) {
-			ab_min = b;
+			abMin = b;
 		} else {
-			ab_min = a;
+			abMin = a;
 		}
 		if (c >= d) {
-			cd_min = d;
+			cdMin = d;
 		} else {
-			cd_min = c;
+			cdMin = c;
 		}
 
 		double MaxOfMin = 0;
-		if (ab_min >= cd_min) {
-			MaxOfMin = cd_min;
+		if (abMin >= cdMin) {
+			MaxOfMin = cdMin;
 		} else {
-			MaxOfMin = ab_min;
+			MaxOfMin = abMin;
 		}
 		System.out.println(MaxOfMin);
 	}
