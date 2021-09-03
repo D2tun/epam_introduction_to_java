@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskEight;
-
 /*
  * Дана последовательность целых чисел a1, a2,..., an. Образовать новую
  * последовательность, выбросив из исходной те члены, которые равны 
  * min(a1, a2,..., an).
  */
+
+package by.minsk.epam.jio.taskEight;
 
 import by.minsk.epam.jio.input.Input_value_int;
 
