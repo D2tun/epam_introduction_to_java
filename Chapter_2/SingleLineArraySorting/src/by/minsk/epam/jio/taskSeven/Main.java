@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.taskSeven;
-
 /*
  *  Пусть даны две неубывающие последовательности действительных чисел
  * a1=<a2=<...=<an и b1=<b2=<...=<bm. Требуется указать те места, на которые
@@ -7,6 +5,8 @@ package by.minsk.epam.jio.taskSeven;
  * последовательность так, чтобы новая последовательность оставалась
  * возрастающей.
  */
+
+package by.minsk.epam.jio.taskSeven;
 
 import by.minsk.epam.jio.other.ValueInt;
 
@@ -44,7 +44,7 @@ public class Main {
 			for (int j = 0; j < m; j++){
 				if (b[j] > a[i]) {
 					System.out.println("Число " + b[j]
-									  + " нужно вставить после числа " + a[i]);
+							   + " нужно вставить после числа " + a[i]);
 					break;
 				}
 			}
