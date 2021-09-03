@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Составить программу нахождения произведния квадратов первых двухсот чисел.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueInt;
 
