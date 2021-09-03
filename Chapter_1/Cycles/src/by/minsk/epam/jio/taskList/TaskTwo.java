@@ -1,8 +1,8 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Вычислить значение функции y=x, x>2; -x, x<=2 на отрезке [a, b] с шагом h.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
