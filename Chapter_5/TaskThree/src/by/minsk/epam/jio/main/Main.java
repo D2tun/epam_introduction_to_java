@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.main;
-
 /* 
  * Создать класс Календарь с внутренним классом, с помощью объектов которого 
  * можно хранить информацию о выходных и праздничных днях. 
  */
+
+package by.minsk.epam.jio.main;
 
 import java.util.List;
 import by.minsk.epam.jio.bean.Calendar;
