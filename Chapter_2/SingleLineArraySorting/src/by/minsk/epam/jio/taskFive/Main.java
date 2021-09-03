@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.taskFive;
-
 /* 
  * Сортировка вставками. Дана последовательность чисел а1, a2, ..., an.
  * Требуется переставить числа в порядке возрастания. Делается это следующим
@@ -11,6 +9,8 @@ package by.minsk.epam.jio.taskFive;
  * отсортированную часть производить с помощью двоичного поиска. Двоичный поиск
  * оформить в виде отдейльной функции.
  */
+
+package by.minsk.epam.jio.taskFive;
 
 import by.minsk.epam.jio.other.ValueInt;
 
