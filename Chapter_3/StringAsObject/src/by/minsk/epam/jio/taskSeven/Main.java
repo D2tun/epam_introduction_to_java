@@ -1,10 +1,10 @@
-package by.minsk.epam.jio.taskSeven;
-
 /* 
  * Вводится строка. Требуется удалить из неё повторяющиеся символы и все
  * пробелы. Например, если было введено "abc cde def", то должно быть выведено
  * "abcdef".
  */
+
+package by.minsk.epam.jio.taskSeven;
 
 import java.util.Scanner;
 
