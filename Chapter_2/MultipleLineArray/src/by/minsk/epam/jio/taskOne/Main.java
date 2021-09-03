@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskOne;
-
 /*
  * Дана матрица. Вывести на экран все нечётные столбцы, у которых первый
  * элемент больше последнего.
  */
+
+package by.minsk.epam.jio.taskOne;
 
 import by.minsk.epam.jio.input.ValueInt;
 
