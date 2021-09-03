@@ -25,7 +25,8 @@ public class TaskSeven {
 		while ((number >= m) & (number <= n)) {
 			System.out.print("Делители " + number + ": ");
 			for (div = 2; div < (number); div++) {
-				if ((StrictMath.floorMod(number, div) == 0) & (div != n) & (div != m)) {
+				if ((StrictMath.floorMod(number, div) == 0) & (div != n) 
+						& (div != m)) {
 					System.out.print(div + ", ");
 				}
 			}
