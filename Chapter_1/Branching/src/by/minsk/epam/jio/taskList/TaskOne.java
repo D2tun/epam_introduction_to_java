@@ -22,10 +22,12 @@ public class TaskOne {
 		double angle3 = 180 - angle1 - angle2;
 
 		if (((angle3 < 90) & (angle3 > 0)) | ((angle3 > 90) & (angle3 < 180))) {
-			System.out.println("Такой треугольник существует, он не прямоугольный.");
+			System.out.println("Такой треугольник существует, он не "
+				           + "прямоугольный.");
 		} else {
 			if (angle3 == 90) {
-				System.out.println("Такой треугольник существует, он прямоугольный.");
+				System.out.println("Такой треугольник существует, он "
+						   + "прямоугольный.");
 			} else {
 				System.out.println("Такой треугольник не существует.");
 			}
