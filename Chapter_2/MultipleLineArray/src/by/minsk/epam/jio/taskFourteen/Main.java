@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskFourteen;
-
 /*
  * Сформировать случайную матрицу m x n, состоящую из нулей и единиц, причём в
  * каждом столбце число единиц равно номеру столбца. 
  */
+
+package by.minsk.epam.jio.taskFourteen;
 
 import by.minsk.epam.jio.input.ValueInt;
 
