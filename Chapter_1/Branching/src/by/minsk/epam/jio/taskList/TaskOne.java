@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskList;
-
 /*
  * Даны два угла треугольника (в градусах). Определить, существует ли
  * такой треугольник, и если да, то будет ли он прямоугольным.
  */
+
+package by.minsk.epam.jio.taskList;
 
 import by.minsk.epam.jio.input.InputValueDouble;
 
