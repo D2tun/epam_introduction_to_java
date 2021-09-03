@@ -1,9 +1,9 @@
-package by.minsk.epam.jio.taskSeven;
-
 /*
  * Сформировать квадратную матрицу порядка N по правилу и подсчитать количество
  * положительных элементов в ней.
  */
+
+package by.minsk.epam.jio.taskSeven;
 
 import by.minsk.epam.jio.input.ValueInt;
 
