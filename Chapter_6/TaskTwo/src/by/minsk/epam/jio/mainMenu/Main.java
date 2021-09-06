@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.mainMenu;
-
 /* 
  * Разработать консольное приложение, работающее с Заметками в Блокноте.
  * Каждая Заметка это: Заметка (тема, дата создания, e-mail, сообщение).
@@ -16,6 +14,8 @@ package by.minsk.epam.jio.mainMenu;
  *	  осуществлять код, непосредственно добавляющий информацию.
  */
 
+package by.minsk.epam.jio.mainMenu;
+
 import java.util.Scanner;
 import by.minsk.epam.jio.noteSystem.*;
 
@@ -28,9 +28,9 @@ public class Main {
 		boolean menu = true;
 		while (menu == true) {
 			System.out.println("Введите команду из списка:\n" 
-							   + "- создать заметку\n" 
-							   + "- показать все заметки\n" 
-							   + "- найти заметку\n" + "- выход");
+					   + "- создать заметку\n" 
+					   + "- показать все заметки\n" 
+					   + "- найти заметку\n" + "- выход");
 			
 			String command = sc.nextLine().toLowerCase();
 			switch (command) {
