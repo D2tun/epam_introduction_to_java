@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.mainMenu;
-
 /* 
  * Создать консольное приложение "Учёт книг в домашней библиотеке".
  * Общие требования к заданию:
@@ -18,6 +16,8 @@ package by.minsk.epam.jio.mainMenu;
  *   не хранится в открытом виде. 
  */
 
+package by.minsk.epam.jio.mainMenu;
+
 import java.util.Scanner;
 import by.minsk.epam.jio.appFunctional.LibrarySystem;
 import by.minsk.epam.jio.bean.User;
@@ -34,7 +34,7 @@ public class Main {
 		while (gCheck == false) {
 			boolean logIn = false;
 			System.out.println("Введите команду:\n" + "- зарегистрироваться\n" 
-							  + "- войти\n" + "- выход\n");
+					  + "- войти\n" + "- выход\n");
 			command = sc.nextLine();
 			User user1 = null;
 			
@@ -74,9 +74,9 @@ public class Main {
 				boolean logOut = false;
 				while (logOut == false) {
 					System.out.println("Введите команду:\n" 
-									  + "- просмотреть каталог\n" 
-									  + "- найти книгу\n"
-									  + "- добавить книгу\n" + "- выйти\n");
+							  + "- просмотреть каталог\n" 
+							  + "- найти книгу\n"
+							  + "- добавить книгу\n" + "- выйти\n");
 					command = sc.nextLine();
 					switch (command) {
 					default: 
