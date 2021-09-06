@@ -31,7 +31,7 @@ public class Client {
 			Scanner sc = new Scanner(System.in);
 			PrintWriter output = new PrintWriter(socket.getOutputStream());
 			InputStreamReader in = new InputStreamReader(socket
-															.getInputStream());
+									.getInputStream());
 			BufferedReader input = new BufferedReader(in);
 
 			boolean exit = false;
