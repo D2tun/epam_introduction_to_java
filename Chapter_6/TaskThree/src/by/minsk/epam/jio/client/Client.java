@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.client;
-
 /* 
  * Создайте клиент-серверное приложение "Архив".
  * Общие иребования к заданию:
@@ -10,6 +8,8 @@ package by.minsk.epam.jio.client;
  *  - Для реализации сетевого соеднения используйте сокеты.
  *  - Формат хранения данных на сервере - xml-файлы.
  */
+
+package by.minsk.epam.jio.client;
 
 import java.net.Socket;
 import java.io.BufferedReader;
@@ -39,7 +39,7 @@ public class Client {
 				boolean logIn = false;
 				while ((exit == false) & (logIn == false)) {
 					System.out.println("Введите команду из списка:\n "
-									  + "- регистрация\n - вход\n - выход");
+							  + "- регистрация\n - вход\n - выход");
 					String str = sc.nextLine();
 					output.println(str);
 					output.flush();
@@ -76,7 +76,7 @@ public class Client {
 						ans = input.readLine();
 						if (ans.contains("успех")) {
 							System.out.println("пользователь " + name 
-											  + " подключен");
+									  + " подключен");
 							accName = name;
 							accPassword = password;
 							logIn = true;
@@ -210,14 +210,14 @@ public class Client {
 							output.println(group);
 							output.flush();
 							System.out.println("Введите новую остальную "
-											  + "информацию");
+									  + "информацию");
 							String description = sc.nextLine();
 							output.println(description);
 							output.flush();
 							System.out.println(input.readLine());
 						} else {
 							System.out.println("У вас нет прав на это "
-											  + "действие");
+									  + "действие");
 						}
 						break;
 					
