@@ -1,5 +1,3 @@
-package by.minsk.epam.jio.server;
-
 /* 
  * Создайте клиент-серверное приложение "Архив".
  * Общие иребования к заданию:
@@ -10,6 +8,8 @@ package by.minsk.epam.jio.server;
  *  - Для реализации сетевого соеднения используйте сокеты.
  *  - Формат хранения данных на сервере - xml-файлы.
  */
+
+package by.minsk.epam.jio.server;
 
 import java.net.Socket;
 import by.minsk.epam.jio.DAO.DataBase;
